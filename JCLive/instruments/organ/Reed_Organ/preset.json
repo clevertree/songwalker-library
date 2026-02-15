@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Reed Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:20",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 20,
+    "gmCategory": "organ",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 55
+          },
+          "pitch": {
+            "rootNote": 58,
+            "fineTuneCents": 42
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb3.mp3",
+            "codec": "mp3",
+            "sha256": "8199982a8fcb643d"
+          },
+          "loop": {
+            "start": 4999,
+            "end": 26552
+          }
+        },
+        {
+          "keyRange": {
+            "low": 56,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 70,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb4.mp3",
+            "codec": "mp3",
+            "sha256": "c8a8c34e75ae7e52"
+          },
+          "loop": {
+            "start": 5193,
+            "end": 40076
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 79
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.mp3",
+            "codec": "mp3",
+            "sha256": "5ca6d94f2b484eb6"
+          },
+          "loop": {
+            "start": 5223,
+            "end": 39762
+          }
+        },
+        {
+          "keyRange": {
+            "low": 80,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 12
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.mp3",
+            "codec": "mp3",
+            "sha256": "6cb5d50a5f72c7c2"
+          },
+          "loop": {
+            "start": 5404,
+            "end": 38267
+          }
+        }
+      ]
+    }
+  }
+}

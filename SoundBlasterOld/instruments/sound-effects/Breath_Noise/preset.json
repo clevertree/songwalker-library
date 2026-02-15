@@ -1,0 +1,61 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Breath Noise",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:121",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 121,
+    "gmCategory": "sound-effects",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 91
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.raw",
+            "codec": "raw",
+            "sha256": "0b34136ec5729202"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 92,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          }
+        }
+      ]
+    }
+  }
+}

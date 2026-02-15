@@ -1,0 +1,46 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Soul Ahhs",
+  "description": "Soul Ahhs soundfont — 2 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Choir Aahs",
+      "path": "instruments/ensemble/Choir_Aahs/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:52",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 52,
+      "zoneCount": 33,
+      "keyRange": {
+        "low": 0,
+        "high": 84
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Voice Oohs",
+      "path": "instruments/ensemble/Voice_Oohs/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:53",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 53,
+      "zoneCount": 17,
+      "keyRange": {
+        "low": 0,
+        "high": 84
+      }
+    }
+  ]
+}

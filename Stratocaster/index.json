@@ -1,0 +1,46 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Stratocaster",
+  "description": "Stratocaster soundfont — 2 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Electric Guitar (clean)",
+      "path": "instruments/guitar/Electric_Guitar_clean/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:27",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 27,
+      "zoneCount": 30,
+      "keyRange": {
+        "low": 0,
+        "high": 126
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (jazz)",
+      "path": "instruments/guitar/Electric_Guitar_jazz/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:26",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 26,
+      "zoneCount": 30,
+      "keyRange": {
+        "low": 0,
+        "high": 126
+      }
+    }
+  ]
+}

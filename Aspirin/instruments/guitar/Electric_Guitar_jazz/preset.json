@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (jazz)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:26",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 26,
+    "gmCategory": "guitar",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 17,
+            "high": 53
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "d3c6d7420a79736e"
+          },
+          "loop": {
+            "start": 13254,
+            "end": 13522
+          }
+        },
+        {
+          "keyRange": {
+            "low": 55,
+            "high": 70
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "8b341e373d0a5c75"
+          },
+          "loop": {
+            "start": 26742,
+            "end": 27276
+          }
+        },
+        {
+          "keyRange": {
+            "low": 71,
+            "high": 102
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "7688faa3a7568c49"
+          },
+          "loop": {
+            "start": 28818,
+            "end": 29119
+          }
+        }
+      ]
+    }
+  }
+}

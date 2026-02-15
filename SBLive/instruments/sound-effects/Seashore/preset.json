@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Seashore",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:122",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 122,
+    "gmCategory": "sound-effects",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 77
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.raw",
+            "codec": "raw",
+            "sha256": "95a404cb9bdb2344"
+          },
+          "loop": {
+            "start": 3,
+            "end": 20850
+          }
+        }
+      ]
+    }
+  }
+}

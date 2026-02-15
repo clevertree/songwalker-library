@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (clean)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:27",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 27,
+    "gmCategory": "guitar",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 95
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 93
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.raw",
+            "codec": "raw",
+            "sha256": "62fe80fb721063b6"
+          },
+          "loop": {
+            "start": 1401,
+            "end": 1476
+          }
+        },
+        {
+          "keyRange": {
+            "low": 96,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.raw",
+            "codec": "raw",
+            "sha256": "6ef17d46a729d5c3"
+          },
+          "loop": {
+            "start": 1593,
+            "end": 1761
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "FX 2 (soundtrack)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-effects",
+    "gm:97",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 97,
+    "gmCategory": "synth-effects",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 105
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 14
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.raw",
+            "codec": "raw",
+            "sha256": "d0aaee5908ca3757"
+          },
+          "loop": {
+            "start": 289,
+            "end": 13745
+          }
+        },
+        {
+          "keyRange": {
+            "low": 106,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

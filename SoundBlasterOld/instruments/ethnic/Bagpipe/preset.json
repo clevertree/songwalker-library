@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Bagpipe",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:109",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 109,
+    "gmCategory": "ethnic",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 57
+          },
+          "pitch": {
+            "rootNote": 62,
+            "fineTuneCents": 14
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D4.raw",
+            "codec": "raw",
+            "sha256": "325af32d230bc734"
+          },
+          "loop": {
+            "start": 1764,
+            "end": 1913
+          }
+        }
+      ]
+    }
+  }
+}

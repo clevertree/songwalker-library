@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Brass Section",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:61",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 61,
+    "gmCategory": "brass",
+    "source": "GeneralUserGS",
+    "variant": 5,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 89,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 31137,
+          "audio": {
+            "type": "external",
+            "url": "zone_F6.mp3",
+            "codec": "mp3",
+            "sha256": "85effbf65e3f1621"
+          },
+          "loop": {
+            "start": 13180,
+            "end": 13222
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Muted Trumpet",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:59",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 59,
+    "gmCategory": "brass",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 65,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_F4.mp3",
+            "codec": "mp3",
+            "sha256": "fcb7d53917cd7398"
+          },
+          "loop": {
+            "start": 664,
+            "end": 3707
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "82a1168a8b8a8697"
+          },
+          "loop": {
+            "start": 2481,
+            "end": 2704
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 77
+          },
+          "pitch": {
+            "rootNote": 77,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_F5.mp3",
+            "codec": "mp3",
+            "sha256": "c8f15cc23f885ac5"
+          },
+          "loop": {
+            "start": 962,
+            "end": 1467
+          }
+        },
+        {
+          "keyRange": {
+            "low": 78,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "e6cfd8cbee28365f"
+          },
+          "loop": {
+            "start": 2989,
+            "end": 3102
+          }
+        }
+      ]
+    }
+  }
+}

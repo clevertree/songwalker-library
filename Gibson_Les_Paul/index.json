@@ -1,0 +1,26 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Gibson Les Paul",
+  "description": "Gibson Les Paul soundfont — 1 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Electric Guitar (clean)",
+      "path": "instruments/guitar/Electric_Guitar_clean/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:27",
+        "one-shot"
+      ],
+      "gmProgram": 27,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 84
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Muted Trumpet",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:59",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 59,
+    "gmCategory": "brass",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 77,
+            "fineTuneCents": 56
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F5.raw",
+            "codec": "raw",
+            "sha256": "2b6a2a1da2bb537e"
+          },
+          "loop": {
+            "start": 1420,
+            "end": 1481
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 112
+          },
+          "pitch": {
+            "rootNote": 90,
+            "fineTuneCents": 40
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb6.raw",
+            "codec": "raw",
+            "sha256": "1170180aac37e45a"
+          },
+          "loop": {
+            "start": 840,
+            "end": 898
+          }
+        },
+        {
+          "keyRange": {
+            "low": 113,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

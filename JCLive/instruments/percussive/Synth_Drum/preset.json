@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Drum",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:118",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 118,
+    "gmCategory": "percussive",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 114,
+            "fineTuneCents": 12
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb8.mp3",
+            "codec": "mp3",
+            "sha256": "7f5c4f5361444f94"
+          },
+          "loop": {
+            "start": 1230,
+            "end": 1313
+          }
+        }
+      ]
+    }
+  }
+}

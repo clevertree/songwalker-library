@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Recorder",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:74",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 74,
+    "gmCategory": "pipe",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 106,
+            "high": 123
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 44
+          },
+          "sampleRate": 16801,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.mp3",
+            "codec": "mp3",
+            "sha256": "cc8b49598d609965"
+          },
+          "loop": {
+            "start": 2543,
+            "end": 4225
+          }
+        }
+      ]
+    }
+  }
+}

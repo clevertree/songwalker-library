@@ -1,0 +1,78 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Timpani",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:47",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 47,
+    "gmCategory": "strings",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 36
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 32000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "cbafda18caa8193b"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 37,
+            "high": 42
+          },
+          "pitch": {
+            "rootNote": 38,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 32000,
+          "audio": {
+            "type": "external",
+            "url": "zone_D2.mp3",
+            "codec": "mp3",
+            "sha256": "afd149f099abc286"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 43,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 43,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 32000,
+          "audio": {
+            "type": "external",
+            "url": "zone_G2.mp3",
+            "codec": "mp3",
+            "sha256": "7f5bbf0153ddaa73"
+          }
+        }
+      ]
+    }
+  }
+}

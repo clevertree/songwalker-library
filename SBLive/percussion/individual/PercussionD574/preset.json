@@ -1,0 +1,43 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Percussion_D5_74",
+  "category": "sampler",
+  "tags": [
+    "percussion",
+    "gm:128",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 128,
+    "gmCategory": "Percussion",
+    "source": "SBLive",
+    "variant": 8,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": true,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 74
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.raw",
+            "codec": "raw",
+            "sha256": "65de34300e752d7c"
+          }
+        }
+      ]
+    }
+  }
+}

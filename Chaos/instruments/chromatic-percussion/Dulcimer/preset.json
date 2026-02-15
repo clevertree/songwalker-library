@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Dulcimer",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:15",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 15,
+    "gmCategory": "chromatic-percussion",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 88
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "06472ab3f0474ca1"
+          },
+          "loop": {
+            "start": 3194,
+            "end": 3250
+          }
+        },
+        {
+          "keyRange": {
+            "low": 89,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 103,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G7.mp3",
+            "codec": "mp3",
+            "sha256": "9bb2f21243849bdf"
+          },
+          "loop": {
+            "start": 779,
+            "end": 793
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 103,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G7.mp3",
+            "codec": "mp3",
+            "sha256": "9bb2f21243849bdf"
+          },
+          "loop": {
+            "start": 779,
+            "end": 793
+          }
+        }
+      ]
+    }
+  }
+}

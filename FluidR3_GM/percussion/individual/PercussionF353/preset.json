@@ -1,0 +1,43 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Percussion_F3_53",
+  "category": "sampler",
+  "tags": [
+    "percussion",
+    "gm:128",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 128,
+    "gmCategory": "Percussion",
+    "source": "FluidR3_GM",
+    "variant": 9,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": true,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 53,
+            "high": 53
+          },
+          "pitch": {
+            "rootNote": 53,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F3.mp3",
+            "codec": "mp3",
+            "sha256": "4b3110a9a4761471"
+          }
+        }
+      ]
+    }
+  }
+}

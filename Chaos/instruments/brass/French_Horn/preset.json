@@ -1,0 +1,175 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "French Horn",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:60",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 60,
+    "gmCategory": "brass",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 78
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.mp3",
+            "codec": "mp3",
+            "sha256": "5ef196959b17ea92"
+          },
+          "loop": {
+            "start": 3338,
+            "end": 3414
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 78
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.mp3",
+            "codec": "mp3",
+            "sha256": "69946abdee196cf5"
+          },
+          "loop": {
+            "start": 6341,
+            "end": 6645
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 64
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 28
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.mp3",
+            "codec": "mp3",
+            "sha256": "fc59e4dbae678251"
+          },
+          "loop": {
+            "start": 1232,
+            "end": 1310
+          }
+        },
+        {
+          "keyRange": {
+            "low": 65,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 11
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "06639d9569cb444b"
+          },
+          "loop": {
+            "start": 1179,
+            "end": 1238
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 92
+          },
+          "pitch": {
+            "rootNote": 85,
+            "fineTuneCents": 78
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db6.mp3",
+            "codec": "mp3",
+            "sha256": "4b1f5bc8ee1acc79"
+          },
+          "loop": {
+            "start": 4626,
+            "end": 4664
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 92
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 81
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.mp3",
+            "codec": "mp3",
+            "sha256": "a15c4d6170cdc417"
+          },
+          "loop": {
+            "start": 2581,
+            "end": 2626
+          }
+        },
+        {
+          "keyRange": {
+            "low": 93,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 107,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B7.mp3",
+            "codec": "mp3",
+            "sha256": "165bc35771eca05c"
+          },
+          "loop": {
+            "start": 1350,
+            "end": 1361
+          }
+        }
+      ]
+    }
+  }
+}

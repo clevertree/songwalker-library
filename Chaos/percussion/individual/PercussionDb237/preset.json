@@ -1,0 +1,43 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Percussion_Db2_37",
+  "category": "sampler",
+  "tags": [
+    "percussion",
+    "gm:128",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 128,
+    "gmCategory": "Percussion",
+    "source": "Chaos",
+    "variant": 9,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": true,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 37,
+            "high": 37
+          },
+          "pitch": {
+            "rootNote": 37,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db2.mp3",
+            "codec": "mp3",
+            "sha256": "b6c824e92efa6cee"
+          }
+        }
+      ]
+    }
+  }
+}

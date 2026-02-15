@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "English Horn",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "reed",
+    "gm:69",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 69,
+    "gmCategory": "reed",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 53,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 24970,
+          "audio": {
+            "type": "external",
+            "url": "zone_F3.mp3",
+            "codec": "mp3",
+            "sha256": "198d7dda6ef7f083"
+          },
+          "loop": {
+            "start": 13448,
+            "end": 19031
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 24942,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "6f3a81c136457462"
+          },
+          "loop": {
+            "start": 13316,
+            "end": 18372
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 64
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 24891,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.mp3",
+            "codec": "mp3",
+            "sha256": "993dae19f6127991"
+          },
+          "loop": {
+            "start": 14724,
+            "end": 19770
+          }
+        },
+        {
+          "keyRange": {
+            "low": 65,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 25088,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.mp3",
+            "codec": "mp3",
+            "sha256": "451253b708822857"
+          },
+          "loop": {
+            "start": 17803,
+            "end": 23381
+          }
+        }
+      ]
+    }
+  }
+}

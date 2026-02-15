@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (muted)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:28",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 28,
+    "gmCategory": "guitar",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 42
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "ba44ae7b5fca31de"
+          },
+          "loop": {
+            "start": 3171,
+            "end": 4243
+          }
+        },
+        {
+          "keyRange": {
+            "low": 43,
+            "high": 54
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "dc0febe15a9e62a3"
+          },
+          "loop": {
+            "start": 2301,
+            "end": 3204
+          }
+        },
+        {
+          "keyRange": {
+            "low": 55,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "3d81ba91198a3792"
+          },
+          "loop": {
+            "start": 1261,
+            "end": 1516
+          }
+        }
+      ]
+    }
+  }
+}

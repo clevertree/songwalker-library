@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Applause",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:126",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 126,
+    "gmCategory": "sound-effects",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.mp3",
+            "codec": "mp3",
+            "sha256": "19a3dc3cb6b1d7bb"
+          },
+          "loop": {
+            "start": 9,
+            "end": 8682
+          }
+        }
+      ]
+    }
+  }
+}

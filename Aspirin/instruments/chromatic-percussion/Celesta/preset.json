@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Celesta",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:8",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 8,
+    "gmCategory": "chromatic-percussion",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.mp3",
+            "codec": "mp3",
+            "sha256": "c7613d8e152c3b4b"
+          },
+          "loop": {
+            "start": 4273,
+            "end": 4440
+          }
+        },
+        {
+          "keyRange": {
+            "low": 95,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 96,
+            "fineTuneCents": 3
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C7.mp3",
+            "codec": "mp3",
+            "sha256": "3beae4b7c69f4e63"
+          },
+          "loop": {
+            "start": 3,
+            "end": 45
+          }
+        },
+        {
+          "keyRange": {
+            "low": 95,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 108,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C8.mp3",
+            "codec": "mp3",
+            "sha256": "53c1430644f44cf3"
+          },
+          "loop": {
+            "start": 1349,
+            "end": 1390
+          }
+        }
+      ]
+    }
+  }
+}

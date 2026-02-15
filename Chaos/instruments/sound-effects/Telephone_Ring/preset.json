@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Telephone Ring",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:124",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 124,
+    "gmCategory": "sound-effects",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 10
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.mp3",
+            "codec": "mp3",
+            "sha256": "f999eb6765a25ae8"
+          },
+          "loop": {
+            "start": 31,
+            "end": 1537
+          }
+        }
+      ]
+    }
+  }
+}

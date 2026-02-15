@@ -1,0 +1,61 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Kalimba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:108",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 108,
+    "gmCategory": "ethnic",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 120
+          },
+          "pitch": {
+            "rootNote": 98,
+            "fineTuneCents": 39
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D7.raw",
+            "codec": "raw",
+            "sha256": "ddfa59bb4dcd51cb"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 121,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          }
+        }
+      ]
+    }
+  }
+}

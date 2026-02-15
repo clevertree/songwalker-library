@@ -1,0 +1,129 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Marimba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:12",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 12,
+    "gmCategory": "chromatic-percussion",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 53
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "17925874fbe74c0b"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 54,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "038a967088ec6e57"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "27c494b15bcc8e30"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 77
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "79d0949eea3128f2"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 78,
+            "high": 83
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "8a5e018b1df38c72"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 84,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "f6c8d655bf8acd1a"
+          }
+        }
+      ]
+    }
+  }
+}

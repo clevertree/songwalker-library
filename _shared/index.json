@@ -1,0 +1,93 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Built-in",
+  "description": "Built-in oscillator synths and effects — 7 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Chorus",
+      "path": "effects/Chorus/preset.json",
+      "category": "effect",
+      "tags": [
+        "effect",
+        "chorus",
+        "modulation"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Delay",
+      "path": "effects/Delay/preset.json",
+      "category": "effect",
+      "tags": [
+        "effect",
+        "delay",
+        "echo",
+        "time-based"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Reverb",
+      "path": "effects/Reverb/preset.json",
+      "category": "effect",
+      "tags": [
+        "effect",
+        "reverb",
+        "spatial"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Sawtooth Oscillator",
+      "path": "synths/Sawtooth/preset.json",
+      "category": "synth",
+      "tags": [
+        "melodic",
+        "oscillator",
+        "sawtooth",
+        "basic",
+        "bright"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Sine Oscillator",
+      "path": "synths/Sine/preset.json",
+      "category": "synth",
+      "tags": [
+        "melodic",
+        "oscillator",
+        "sine",
+        "basic"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Square Oscillator",
+      "path": "synths/Square/preset.json",
+      "category": "synth",
+      "tags": [
+        "melodic",
+        "oscillator",
+        "square",
+        "basic",
+        "chiptune"
+      ]
+    },
+    {
+      "type": "preset",
+      "name": "Triangle Oscillator",
+      "path": "synths/Triangle/preset.json",
+      "category": "synth",
+      "tags": [
+        "melodic",
+        "oscillator",
+        "triangle",
+        "basic",
+        "soft"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Fretless Bass",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:35",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 35,
+    "gmCategory": "bass",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 93,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 102,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 48000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb7.mp3",
+            "codec": "mp3",
+            "sha256": "6646b7c213133fee"
+          },
+          "loop": {
+            "start": 8,
+            "end": 56
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 115
+          },
+          "pitch": {
+            "rootNote": 114,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 48000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb8.mp3",
+            "codec": "mp3",
+            "sha256": "f1b36bcaf3d825da"
+          },
+          "loop": {
+            "start": 12,
+            "end": 52
+          }
+        },
+        {
+          "keyRange": {
+            "low": 116,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 126,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 48000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb9.mp3",
+            "codec": "mp3",
+            "sha256": "3ca3edcb2ecd4e50"
+          },
+          "loop": {
+            "start": 6,
+            "end": 42
+          }
+        }
+      ]
+    }
+  }
+}

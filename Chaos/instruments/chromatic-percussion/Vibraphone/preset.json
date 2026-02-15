@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Vibraphone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:11",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 11,
+    "gmCategory": "chromatic-percussion",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 43
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.mp3",
+            "codec": "mp3",
+            "sha256": "99ff3582839cb58a"
+          },
+          "loop": {
+            "start": 860,
+            "end": 929
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 87
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 87
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "8017034562c893ad"
+          },
+          "loop": {
+            "start": 832,
+            "end": 872
+          }
+        },
+        {
+          "keyRange": {
+            "low": 88,
+            "high": 101
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 73
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.mp3",
+            "codec": "mp3",
+            "sha256": "b4b6934abe8f00f9"
+          },
+          "loop": {
+            "start": 257,
+            "end": 273
+          }
+        },
+        {
+          "keyRange": {
+            "low": 102,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 96,
+            "fineTuneCents": 3
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C7.mp3",
+            "codec": "mp3",
+            "sha256": "3beae4b7c69f4e63"
+          },
+          "loop": {
+            "start": 3,
+            "end": 45
+          }
+        }
+      ]
+    }
+  }
+}

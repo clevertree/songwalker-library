@@ -1,0 +1,25 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Triangle Oscillator",
+  "category": "synth",
+  "tags": ["melodic", "oscillator", "triangle", "basic", "soft"],
+  "maxVoices": 64,
+  "metadata": {
+    "description": "A triangle wave oscillator with a soft, mellow tone",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "oscillator",
+    "config": {
+      "waveform": "triangle",
+      "envelope": {
+        "attack": 0.02,
+        "decay": 0.15,
+        "sustain": 0.75,
+        "release": 0.4
+      }
+    }
+  }
+}

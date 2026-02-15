@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Acoustic Guitar (nylon)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:24",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 24,
+    "gmCategory": "guitar",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.raw",
+            "codec": "raw",
+            "sha256": "cd9930e1a2fbd858"
+          },
+          "loop": {
+            "start": 3727,
+            "end": 3824
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 77
+          },
+          "pitch": {
+            "rootNote": 77,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F5.raw",
+            "codec": "raw",
+            "sha256": "ffa49f30d62df807"
+          },
+          "loop": {
+            "start": 5125,
+            "end": 5188
+          }
+        },
+        {
+          "keyRange": {
+            "low": 78,
+            "high": 97
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 68
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.raw",
+            "codec": "raw",
+            "sha256": "629a750ade404c55"
+          },
+          "loop": {
+            "start": 6168,
+            "end": 6236
+          }
+        },
+        {
+          "keyRange": {
+            "low": 98,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

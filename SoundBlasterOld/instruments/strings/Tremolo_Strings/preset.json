@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tremolo Strings",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:44",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 44,
+    "gmCategory": "strings",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 67
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.raw",
+            "codec": "raw",
+            "sha256": "cfa6355afc0ade03"
+          },
+          "loop": {
+            "start": 2609,
+            "end": 9304
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "ae13c82dc1a0fd0c"
+          },
+          "loop": {
+            "start": 3415,
+            "end": 8642
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 115
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.raw",
+            "codec": "raw",
+            "sha256": "fc09f68621fde589"
+          },
+          "loop": {
+            "start": 3098,
+            "end": 10722
+          }
+        },
+        {
+          "keyRange": {
+            "low": 116,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

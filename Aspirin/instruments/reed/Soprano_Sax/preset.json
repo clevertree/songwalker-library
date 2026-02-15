@@ -1,0 +1,133 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Soprano Sax",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "reed",
+    "gm:64",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 64,
+    "gmCategory": "reed",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 62
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.mp3",
+            "codec": "mp3",
+            "sha256": "55dd2997fe9aba15"
+          },
+          "loop": {
+            "start": 4272,
+            "end": 11008
+          }
+        },
+        {
+          "keyRange": {
+            "low": 63,
+            "high": 70
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "d388fd30b269c842"
+          },
+          "loop": {
+            "start": 3644,
+            "end": 9635
+          }
+        },
+        {
+          "keyRange": {
+            "low": 71,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "1096e79470f71238"
+          },
+          "loop": {
+            "start": 3461,
+            "end": 7136
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 82
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "75364b42c5d5568d"
+          },
+          "loop": {
+            "start": 6515,
+            "end": 9440
+          }
+        },
+        {
+          "keyRange": {
+            "low": 83,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.mp3",
+            "codec": "mp3",
+            "sha256": "a4277c5a526ed207"
+          },
+          "loop": {
+            "start": 4950,
+            "end": 7679
+          }
+        }
+      ]
+    }
+  }
+}

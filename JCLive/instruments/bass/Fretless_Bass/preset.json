@@ -1,0 +1,104 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Fretless Bass",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:35",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 35,
+    "gmCategory": "bass",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 48
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "0fe9a395d1e83b77"
+          },
+          "loop": {
+            "start": 27070,
+            "end": 27736
+          }
+        },
+        {
+          "keyRange": {
+            "low": 49,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "4b92bbba0c012866"
+          },
+          "loop": {
+            "start": 54082,
+            "end": 112128
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.mp3",
+            "codec": "mp3",
+            "sha256": "a8963e9cb1b6bf64"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "6bdad42837414e19"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Reed Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:20",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 20,
+    "gmCategory": "organ",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 110
+          },
+          "pitch": {
+            "rootNote": 88,
+            "fineTuneCents": 20
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E6.raw",
+            "codec": "raw",
+            "sha256": "43791e7eb45c9ca4"
+          },
+          "loop": {
+            "start": 69,
+            "end": 135
+          }
+        },
+        {
+          "keyRange": {
+            "low": 111,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

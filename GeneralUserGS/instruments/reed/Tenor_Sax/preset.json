@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tenor Sax",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "reed",
+    "gm:66",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 66,
+    "gmCategory": "reed",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 100,
+            "high": 120
+          },
+          "pitch": {
+            "rootNote": 96,
+            "fineTuneCents": 40
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C7.mp3",
+            "codec": "mp3",
+            "sha256": "bf40269ebcbc7bb6"
+          },
+          "loop": {
+            "start": 11857,
+            "end": 16724
+          }
+        }
+      ]
+    }
+  }
+}

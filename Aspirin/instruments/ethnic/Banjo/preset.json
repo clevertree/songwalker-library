@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Banjo",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:105",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 105,
+    "gmCategory": "ethnic",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.mp3",
+            "codec": "mp3",
+            "sha256": "538bfad78519887b"
+          },
+          "loop": {
+            "start": 2095,
+            "end": 2196
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 89
+          },
+          "pitch": {
+            "rootNote": 74,
+            "fineTuneCents": 93
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D5.mp3",
+            "codec": "mp3",
+            "sha256": "1654c2cd646e82ec"
+          },
+          "loop": {
+            "start": 1594,
+            "end": 1665
+          }
+        },
+        {
+          "keyRange": {
+            "low": 90,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 73
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.mp3",
+            "codec": "mp3",
+            "sha256": "87ff0beadbf6df33"
+          },
+          "loop": {
+            "start": 215,
+            "end": 231
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Drum",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:118",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 118,
+    "gmCategory": "percussive",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 80
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.mp3",
+            "codec": "mp3",
+            "sha256": "1e9097fc034e5687"
+          }
+        }
+      ]
+    }
+  }
+}

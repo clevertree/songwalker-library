@@ -1,0 +1,83 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "LesPaul",
+  "description": "LesPaul soundfont — 4 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Distortion Guitar",
+      "path": "instruments/guitar/Distortion_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:30",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 30,
+      "zoneCount": 33,
+      "keyRange": {
+        "low": 24,
+        "high": 97
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (muted)",
+      "path": "instruments/guitar/Electric_Guitar_muted/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:28",
+        "one-shot"
+      ],
+      "gmProgram": 28,
+      "zoneCount": 23,
+      "keyRange": {
+        "low": 24,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Guitar Harmonics",
+      "path": "instruments/guitar/Guitar_Harmonics/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:31",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 31,
+      "zoneCount": 25,
+      "keyRange": {
+        "low": 24,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Overdriven Guitar",
+      "path": "instruments/guitar/Overdriven_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:29",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 29,
+      "zoneCount": 33,
+      "keyRange": {
+        "low": 24,
+        "high": 97
+      }
+    }
+  ]
+}

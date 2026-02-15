@@ -1,0 +1,98 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "SBAWE32",
+  "description": "SBAWE32 soundfont — 5 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Distortion Guitar",
+      "path": "instruments/guitar/Distortion_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:30",
+        "one-shot"
+      ],
+      "gmProgram": 30,
+      "zoneCount": 10,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (clean)",
+      "path": "instruments/guitar/Electric_Guitar_clean/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:27",
+        "one-shot"
+      ],
+      "gmProgram": 27,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (muted)",
+      "path": "instruments/guitar/Electric_Guitar_muted/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:28",
+        "one-shot"
+      ],
+      "gmProgram": 28,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Guitar Harmonics",
+      "path": "instruments/guitar/Guitar_Harmonics/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:31",
+        "one-shot"
+      ],
+      "gmProgram": 31,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Overdriven Guitar",
+      "path": "instruments/guitar/Overdriven_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:29",
+        "one-shot"
+      ],
+      "gmProgram": 29,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    }
+  ]
+}

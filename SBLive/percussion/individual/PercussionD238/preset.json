@@ -1,0 +1,43 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Percussion_D2_38",
+  "category": "sampler",
+  "tags": [
+    "percussion",
+    "gm:128",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 128,
+    "gmCategory": "Percussion",
+    "source": "SBLive",
+    "variant": 7,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": true,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 38,
+            "high": 38
+          },
+          "pitch": {
+            "rootNote": 54,
+            "fineTuneCents": 77
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb3.raw",
+            "codec": "raw",
+            "sha256": "3f4287d5c0278cd7"
+          }
+        }
+      ]
+    }
+  }
+}

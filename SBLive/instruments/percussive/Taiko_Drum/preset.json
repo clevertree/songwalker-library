@@ -1,0 +1,175 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Taiko Drum",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:116",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 116,
+    "gmCategory": "percussive",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 77
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 78,
+            "high": 82
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 83,
+            "high": 86
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 87,
+            "high": 91
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        },
+        {
+          "keyRange": {
+            "low": 92,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 23
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "7a79a3b8c9ccfa74"
+          },
+          "loop": {
+            "start": 9471,
+            "end": 11845
+          }
+        }
+      ]
+    }
+  }
+}

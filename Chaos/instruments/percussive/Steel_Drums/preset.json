@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Steel Drums",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:114",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 114,
+    "gmCategory": "percussive",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 89
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 46
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "33b1a22d01ce9aa7"
+          },
+          "loop": {
+            "start": 4661,
+            "end": 4791
+          }
+        },
+        {
+          "keyRange": {
+            "low": 90,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.mp3",
+            "codec": "mp3",
+            "sha256": "5afa533c03945b21"
+          },
+          "loop": {
+            "start": 1899,
+            "end": 2012
+          }
+        }
+      ]
+    }
+  }
+}

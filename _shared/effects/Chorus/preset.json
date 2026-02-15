@@ -1,0 +1,21 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Chorus",
+  "category": "effect",
+  "tags": ["effect", "chorus", "modulation"],
+  "metadata": {
+    "description": "A chorus effect for adding width and movement to sounds",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "effect",
+    "effectType": "chorus",
+    "params": {
+      "rate": 1.5,
+      "depth": 0.7,
+      "wetDry": 0.5
+    }
+  }
+}

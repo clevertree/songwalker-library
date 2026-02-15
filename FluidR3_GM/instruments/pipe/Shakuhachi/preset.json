@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Shakuhachi",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:77",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 77,
+    "gmCategory": "pipe",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 38000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "6404861597a8dc68"
+          },
+          "loop": {
+            "start": 27377,
+            "end": 59881
+          }
+        }
+      ]
+    }
+  }
+}

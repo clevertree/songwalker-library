@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Music Box",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:10",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 10,
+    "gmCategory": "chromatic-percussion",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.raw",
+            "codec": "raw",
+            "sha256": "78d481cc48d4d999"
+          },
+          "loop": {
+            "start": 69,
+            "end": 135
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 86
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.raw",
+            "codec": "raw",
+            "sha256": "78d481cc48d4d999"
+          },
+          "loop": {
+            "start": 69,
+            "end": 135
+          }
+        },
+        {
+          "keyRange": {
+            "low": 87,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

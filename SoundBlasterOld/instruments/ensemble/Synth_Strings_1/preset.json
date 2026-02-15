@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Strings 1",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ensemble",
+    "gm:50",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 50,
+    "gmCategory": "ensemble",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 115
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.raw",
+            "codec": "raw",
+            "sha256": "efcf0bc02098627f"
+          },
+          "loop": {
+            "start": 1272,
+            "end": 9962
+          }
+        },
+        {
+          "keyRange": {
+            "low": 116,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

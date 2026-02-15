@@ -1,0 +1,26 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "LK AcousticSteel SF2 file",
+  "description": "LK AcousticSteel SF2 file soundfont — 1 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Acoustic Guitar (steel)",
+      "path": "instruments/guitar/Acoustic_Guitar_steel/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:25",
+        "one-shot"
+      ],
+      "gmProgram": 25,
+      "zoneCount": 9,
+      "keyRange": {
+        "low": 36,
+        "high": 93
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Lead 3 (calliope)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-lead",
+    "gm:82",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 82,
+    "gmCategory": "synth-lead",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 21,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 32000,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "46190a0ce6924578"
+          },
+          "loop": {
+            "start": 14827,
+            "end": 26230
+          }
+        }
+      ]
+    }
+  }
+}

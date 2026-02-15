@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Pizzicato Strings",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:45",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 45,
+    "gmCategory": "strings",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 115
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 4
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.raw",
+            "codec": "raw",
+            "sha256": "159c9b597595a402"
+          },
+          "loop": {
+            "start": 1527,
+            "end": 1555
+          }
+        },
+        {
+          "keyRange": {
+            "low": 116,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

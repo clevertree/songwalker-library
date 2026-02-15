@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Xylophone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:13",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 13,
+    "gmCategory": "chromatic-percussion",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 98
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "4ed26463e5f708e2"
+          },
+          "loop": {
+            "start": 889,
+            "end": 944
+          }
+        },
+        {
+          "keyRange": {
+            "low": 99,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 97,
+            "fineTuneCents": 76
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db7.mp3",
+            "codec": "mp3",
+            "sha256": "9537c94fb9bd0500"
+          },
+          "loop": {
+            "start": 520,
+            "end": 539
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 96,
+            "fineTuneCents": 3
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C7.mp3",
+            "codec": "mp3",
+            "sha256": "3beae4b7c69f4e63"
+          },
+          "loop": {
+            "start": 3,
+            "end": 45
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Pad 8 (sweep)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-pad",
+    "gm:95",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 95,
+    "gmCategory": "synth-pad",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 5
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "e2f23aadd56de6d6"
+          },
+          "loop": {
+            "start": 36638,
+            "end": 51214
+          }
+        }
+      ]
+    }
+  }
+}

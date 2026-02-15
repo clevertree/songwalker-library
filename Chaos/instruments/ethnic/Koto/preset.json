@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Koto",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:107",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 107,
+    "gmCategory": "ethnic",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 61
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 32
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.mp3",
+            "codec": "mp3",
+            "sha256": "c2126d8fbadab867"
+          },
+          "loop": {
+            "start": 1007,
+            "end": 1111
+          }
+        },
+        {
+          "keyRange": {
+            "low": 62,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 31
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.mp3",
+            "codec": "mp3",
+            "sha256": "eba77afa589c51cc"
+          },
+          "loop": {
+            "start": 1016,
+            "end": 1094
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 91
+          },
+          "pitch": {
+            "rootNote": 77,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F5.mp3",
+            "codec": "mp3",
+            "sha256": "9e41f76aceb56b0f"
+          },
+          "loop": {
+            "start": 792,
+            "end": 855
+          }
+        },
+        {
+          "keyRange": {
+            "low": 92,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 73
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.mp3",
+            "codec": "mp3",
+            "sha256": "b292af5b19d055c2"
+          },
+          "loop": {
+            "start": 443,
+            "end": 459
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Ocarina",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:79",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 79,
+    "gmCategory": "pipe",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "e40f1e9b2e485255"
+          },
+          "loop": {
+            "start": 1438,
+            "end": 2839
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 101
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.raw",
+            "codec": "raw",
+            "sha256": "e40f1e9b2e485255"
+          },
+          "loop": {
+            "start": 1438,
+            "end": 2839
+          }
+        },
+        {
+          "keyRange": {
+            "low": 102,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 108,
+            "fineTuneCents": 87
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C8.raw",
+            "codec": "raw",
+            "sha256": "814dc1ffc82d5458"
+          },
+          "loop": {
+            "start": 331,
+            "end": 341
+          }
+        }
+      ]
+    }
+  }
+}

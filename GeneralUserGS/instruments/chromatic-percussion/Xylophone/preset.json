@@ -1,0 +1,95 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Xylophone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:13",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 13,
+    "gmCategory": "chromatic-percussion",
+    "source": "GeneralUserGS",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 21,
+            "high": 79
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 20000,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "f68777e2edf60541"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 80,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 20000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.mp3",
+            "codec": "mp3",
+            "sha256": "f3bde11c17523685"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 88,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 20000,
+          "audio": {
+            "type": "external",
+            "url": "zone_E6.mp3",
+            "codec": "mp3",
+            "sha256": "ecc84461da9bb36e"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 108,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 20000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C8.mp3",
+            "codec": "mp3",
+            "sha256": "6c4a1b6dd6451c40"
+          }
+        }
+      ]
+    }
+  }
+}

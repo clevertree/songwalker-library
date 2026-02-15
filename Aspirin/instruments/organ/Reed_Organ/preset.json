@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Reed Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:20",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 20,
+    "gmCategory": "organ",
+    "source": "Aspirin",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 52,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_E3.mp3",
+            "codec": "mp3",
+            "sha256": "d128841ed64dd05a"
+          },
+          "loop": {
+            "start": 911,
+            "end": 25775
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Acoustic Guitar (steel)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:25",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 25,
+    "gmCategory": "guitar",
+    "source": "LK_AcousticSteel_SF2_file",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 36,
+            "high": 44
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "19d3add98793882d"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 45,
+            "high": 49
+          },
+          "pitch": {
+            "rootNote": 45,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A2.mp3",
+            "codec": "mp3",
+            "sha256": "7ca8b457cf00a5f4"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 50,
+            "high": 54
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "3c2c4397f18c0027"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 55,
+            "high": 58
+          },
+          "pitch": {
+            "rootNote": 55,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G3.mp3",
+            "codec": "mp3",
+            "sha256": "f3db746c06234a9d"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 59,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "23c46961d42aa52f"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 68
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.mp3",
+            "codec": "mp3",
+            "sha256": "6bbcc4a44da48f38"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 69,
+            "high": 73
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "4d41a5e7416ca463"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "f023d66fd6053a11"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 93
+          },
+          "pitch": {
+            "rootNote": 81,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A5.mp3",
+            "codec": "mp3",
+            "sha256": "fc600f7134406ad4"
+          }
+        }
+      ]
+    }
+  }
+}

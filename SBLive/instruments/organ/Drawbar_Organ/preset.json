@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Drawbar Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:16",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 16,
+    "gmCategory": "organ",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "82baf2c6a6fdd168"
+          },
+          "loop": {
+            "start": 1400,
+            "end": 1612
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 89,
+            "fineTuneCents": 56
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F6.raw",
+            "codec": "raw",
+            "sha256": "4d9e86fa81f59d09"
+          },
+          "loop": {
+            "start": 1154,
+            "end": 1215
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 104
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.raw",
+            "codec": "raw",
+            "sha256": "6e3c25cb9e55b8d8"
+          },
+          "loop": {
+            "start": 566,
+            "end": 596
+          }
+        },
+        {
+          "keyRange": {
+            "low": 105,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 117,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A8.raw",
+            "codec": "raw",
+            "sha256": "abc5e036b3abebd8"
+          },
+          "loop": {
+            "start": 8,
+            "end": 20
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Guitar Harmonics",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:31",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 31,
+    "gmCategory": "guitar",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "d77edaac691a113e"
+          },
+          "loop": {
+            "start": 1005,
+            "end": 1139
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "be6cb97c83ce8277"
+          },
+          "loop": {
+            "start": 915,
+            "end": 1010
+          }
+        }
+      ]
+    }
+  }
+}

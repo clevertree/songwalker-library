@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Choir",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ensemble",
+    "gm:54",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 54,
+    "gmCategory": "ensemble",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 79
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.raw",
+            "codec": "raw",
+            "sha256": "48c026410fb547b4"
+          },
+          "loop": {
+            "start": 67,
+            "end": 14746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 79
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.raw",
+            "codec": "raw",
+            "sha256": "48c026410fb547b4"
+          },
+          "loop": {
+            "start": 67,
+            "end": 14746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 93
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "a20472165b0be168"
+          },
+          "loop": {
+            "start": 14,
+            "end": 22973
+          }
+        },
+        {
+          "keyRange": {
+            "low": 94,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 104,
+            "fineTuneCents": 46
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab7.raw",
+            "codec": "raw",
+            "sha256": "6ccea43d9e79bf44"
+          },
+          "loop": {
+            "start": 18,
+            "end": 5018
+          }
+        }
+      ]
+    }
+  }
+}

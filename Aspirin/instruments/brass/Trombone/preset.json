@@ -1,0 +1,78 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Trombone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:57",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 57,
+    "gmCategory": "brass",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 47
+          },
+          "pitch": {
+            "rootNote": 53,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_F3.mp3",
+            "codec": "mp3",
+            "sha256": "9c58646e0a77f319"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 48,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 65,
+            "fineTuneCents": 70
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_F4.mp3",
+            "codec": "mp3",
+            "sha256": "db3030840b8197a6"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 70,
+            "fineTuneCents": 36
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb4.mp3",
+            "codec": "mp3",
+            "sha256": "30ea7501f41868c1"
+          }
+        }
+      ]
+    }
+  }
+}

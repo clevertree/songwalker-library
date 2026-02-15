@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Drum",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:118",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 118,
+    "gmCategory": "percussive",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 55
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.raw",
+            "codec": "raw",
+            "sha256": "a8c92c6daebc79b7"
+          },
+          "loop": {
+            "start": 6052,
+            "end": 6149
+          }
+        },
+        {
+          "keyRange": {
+            "low": 56,
+            "high": 89
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.raw",
+            "codec": "raw",
+            "sha256": "a8c92c6daebc79b7"
+          },
+          "loop": {
+            "start": 6052,
+            "end": 6149
+          }
+        },
+        {
+          "keyRange": {
+            "low": 90,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.raw",
+            "codec": "raw",
+            "sha256": "a8c92c6daebc79b7"
+          },
+          "loop": {
+            "start": 6052,
+            "end": 6149
+          }
+        }
+      ]
+    }
+  }
+}

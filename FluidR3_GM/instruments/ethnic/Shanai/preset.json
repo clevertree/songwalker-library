@@ -1,0 +1,154 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Shanai",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:111",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 111,
+    "gmCategory": "ethnic",
+    "source": "FluidR3_GM",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 54,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb3.mp3",
+            "codec": "mp3",
+            "sha256": "4286977e0bc32ef5"
+          },
+          "loop": {
+            "start": 4164,
+            "end": 4402
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 64
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "7f634a591a18be30"
+          },
+          "loop": {
+            "start": 3780,
+            "end": 3949
+          }
+        },
+        {
+          "keyRange": {
+            "low": 65,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "ffcffa91328f6e76"
+          },
+          "loop": {
+            "start": 3754,
+            "end": 4112
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "268f235ed70cb26e"
+          },
+          "loop": {
+            "start": 2921,
+            "end": 3342
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 81
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "1bd94d144886a0fa"
+          },
+          "loop": {
+            "start": 1922,
+            "end": 2280
+          }
+        },
+        {
+          "keyRange": {
+            "low": 82,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "fe3b08220058ed95"
+          },
+          "loop": {
+            "start": 1672,
+            "end": 2600
+          }
+        }
+      ]
+    }
+  }
+}

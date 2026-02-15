@@ -1,0 +1,150 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Banjo",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ethnic",
+    "gm:105",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 105,
+    "gmCategory": "ethnic",
+    "source": "FluidR3_GM",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 52
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 13
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "fd2d99545598e04d"
+          },
+          "loop": {
+            "start": 71942,
+            "end": 74025
+          }
+        },
+        {
+          "keyRange": {
+            "low": 53,
+            "high": 58
+          },
+          "pitch": {
+            "rootNote": 55,
+            "fineTuneCents": 13
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G3.mp3",
+            "codec": "mp3",
+            "sha256": "5d0cb39ea7ddafde"
+          },
+          "loop": {
+            "start": 88184,
+            "end": 88854
+          }
+        },
+        {
+          "keyRange": {
+            "low": 59,
+            "high": 62
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 8
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "427873ad3c28c7e3"
+          },
+          "loop": {
+            "start": 78873,
+            "end": 80297
+          }
+        },
+        {
+          "keyRange": {
+            "low": 63,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 32
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "26527c552d7f6e34"
+          },
+          "loop": {
+            "start": 56507,
+            "end": 56858
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 73
+          },
+          "pitch": {
+            "rootNote": 62,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D4.mp3",
+            "codec": "mp3",
+            "sha256": "bdc851cdd7cc487c"
+          },
+          "loop": {
+            "start": 71867,
+            "end": 73055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 74,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D5.mp3",
+            "codec": "mp3",
+            "sha256": "c13ef44e66ca2a42"
+          }
+        }
+      ]
+    }
+  }
+}

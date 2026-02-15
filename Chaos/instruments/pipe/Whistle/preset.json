@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Whistle",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:78",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 78,
+    "gmCategory": "pipe",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 68
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "cffd4fd4439383d5"
+          },
+          "loop": {
+            "start": 156,
+            "end": 190
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (clean)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:27",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 27,
+    "gmCategory": "guitar",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 12,
+            "high": 31
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 17500,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "b37c4fd8fab082b3"
+          },
+          "loop": {
+            "start": 11836,
+            "end": 27648
+          }
+        },
+        {
+          "keyRange": {
+            "low": 32,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "2ab33ae386804ea5"
+          }
+        }
+      ]
+    }
+  }
+}

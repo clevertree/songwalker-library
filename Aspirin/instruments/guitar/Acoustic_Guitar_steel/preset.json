@@ -1,0 +1,133 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Acoustic Guitar (steel)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:25",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 25,
+    "gmCategory": "guitar",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 45,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_A2.mp3",
+            "codec": "mp3",
+            "sha256": "a282f0ad33d0578d"
+          },
+          "loop": {
+            "start": 35497,
+            "end": 36099
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "d122b9a0996a1c95"
+          },
+          "loop": {
+            "start": 45397,
+            "end": 47050
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 73
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "79720c39551060c4"
+          },
+          "loop": {
+            "start": 33846,
+            "end": 35904
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "7951bdf54c09d9f4"
+          },
+          "loop": {
+            "start": 25536,
+            "end": 26586
+          }
+        },
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "121601f06f26b87b"
+          },
+          "loop": {
+            "start": 17632,
+            "end": 18334
+          }
+        }
+      ]
+    }
+  }
+}

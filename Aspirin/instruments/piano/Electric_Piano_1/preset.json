@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Piano 1",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "piano",
+    "gm:4",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 4,
+    "gmCategory": "piano",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 12,
+            "high": 51
+          },
+          "pitch": {
+            "rootNote": 47,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B2.mp3",
+            "codec": "mp3",
+            "sha256": "f0b93a683d3029d8"
+          },
+          "loop": {
+            "start": 22074,
+            "end": 28308
+          }
+        },
+        {
+          "keyRange": {
+            "low": 52,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "71c9f1c571533586"
+          },
+          "loop": {
+            "start": 15310,
+            "end": 36210
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "cdb968e65c84bef6"
+          },
+          "loop": {
+            "start": 17698,
+            "end": 30888
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 83,
+            "fineTuneCents": 99
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B5.mp3",
+            "codec": "mp3",
+            "sha256": "a6ebc15fd6b1026a"
+          },
+          "loop": {
+            "start": 7157,
+            "end": 16982
+          }
+        }
+      ]
+    }
+  }
+}

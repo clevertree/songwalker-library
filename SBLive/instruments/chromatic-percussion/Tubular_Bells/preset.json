@@ -1,0 +1,154 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tubular Bells",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:14",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 14,
+    "gmCategory": "chromatic-percussion",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.raw",
+            "codec": "raw",
+            "sha256": "6e0ff108d4da3de4"
+          },
+          "loop": {
+            "start": 9973,
+            "end": 10627
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.raw",
+            "codec": "raw",
+            "sha256": "6e0ff108d4da3de4"
+          },
+          "loop": {
+            "start": 9973,
+            "end": 10627
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.raw",
+            "codec": "raw",
+            "sha256": "6e0ff108d4da3de4"
+          },
+          "loop": {
+            "start": 9973,
+            "end": 10627
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 89
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.raw",
+            "codec": "raw",
+            "sha256": "6e0ff108d4da3de4"
+          },
+          "loop": {
+            "start": 9973,
+            "end": 10627
+          }
+        },
+        {
+          "keyRange": {
+            "low": 90,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 86,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D6.raw",
+            "codec": "raw",
+            "sha256": "6e0ff108d4da3de4"
+          },
+          "loop": {
+            "start": 9973,
+            "end": 10627
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 120,
+            "fineTuneCents": 52
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C9.raw",
+            "codec": "raw",
+            "sha256": "ff009982486d3e81"
+          },
+          "loop": {
+            "start": 1189,
+            "end": 1288
+          }
+        }
+      ]
+    }
+  }
+}

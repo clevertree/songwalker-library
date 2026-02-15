@@ -1,0 +1,154 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Steel Drums",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:114",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 114,
+    "gmCategory": "percussive",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 61
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.raw",
+            "codec": "raw",
+            "sha256": "3ebbfab2fbde2b5b"
+          },
+          "loop": {
+            "start": 18026,
+            "end": 18800
+          }
+        },
+        {
+          "keyRange": {
+            "low": 62,
+            "high": 73
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.raw",
+            "codec": "raw",
+            "sha256": "3ebbfab2fbde2b5b"
+          },
+          "loop": {
+            "start": 18026,
+            "end": 18800
+          }
+        },
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.raw",
+            "codec": "raw",
+            "sha256": "3ebbfab2fbde2b5b"
+          },
+          "loop": {
+            "start": 18026,
+            "end": 18800
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 90
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.raw",
+            "codec": "raw",
+            "sha256": "3ebbfab2fbde2b5b"
+          },
+          "loop": {
+            "start": 18026,
+            "end": 18800
+          }
+        },
+        {
+          "keyRange": {
+            "low": 91,
+            "high": 94
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.raw",
+            "codec": "raw",
+            "sha256": "60853f94f7b53037"
+          },
+          "loop": {
+            "start": 1824,
+            "end": 2049
+          }
+        },
+        {
+          "keyRange": {
+            "low": 95,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.raw",
+            "codec": "raw",
+            "sha256": "60853f94f7b53037"
+          },
+          "loop": {
+            "start": 1824,
+            "end": 2049
+          }
+        }
+      ]
+    }
+  }
+}

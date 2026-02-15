@@ -1,0 +1,175 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Reverse Cymbal",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:119",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 119,
+    "gmCategory": "percussive",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 35
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 36,
+            "high": 48
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 49,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.raw",
+            "codec": "raw",
+            "sha256": "f018d3d42299960a"
+          },
+          "loop": {
+            "start": 69213,
+            "end": 88456
+          }
+        }
+      ]
+    }
+  }
+}

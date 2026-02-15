@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Woodblock",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:115",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 115,
+    "gmCategory": "percussive",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 75
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.mp3",
+            "codec": "mp3",
+            "sha256": "6fb0f2c50c6c3d5f"
+          }
+        }
+      ]
+    }
+  }
+}

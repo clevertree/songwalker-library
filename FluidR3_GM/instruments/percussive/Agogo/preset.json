@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Agogo",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:113",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 113,
+    "gmCategory": "percussive",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "424e06fd65b38fc9"
+          }
+        }
+      ]
+    }
+  }
+}

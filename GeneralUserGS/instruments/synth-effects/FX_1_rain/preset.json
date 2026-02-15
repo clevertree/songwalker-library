@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "FX 1 (rain)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-effects",
+    "gm:96",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 96,
+    "gmCategory": "synth-effects",
+    "source": "GeneralUserGS",
+    "variant": 2,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "6a261037687490fe"
+          },
+          "loop": {
+            "start": 289,
+            "end": 13745
+          }
+        }
+      ]
+    }
+  }
+}

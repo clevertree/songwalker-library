@@ -1,0 +1,61 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Xylophone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:13",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 13,
+    "gmCategory": "chromatic-percussion",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 98,
+            "fineTuneCents": 45
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D7.raw",
+            "codec": "raw",
+            "sha256": "f61a959c3a5ca48a"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 121,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          }
+        }
+      ]
+    }
+  }
+}

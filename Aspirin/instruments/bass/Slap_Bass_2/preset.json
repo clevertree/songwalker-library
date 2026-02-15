@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Slap Bass 2",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:37",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 37,
+    "gmCategory": "bass",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 37
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 23000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "345ec517c8119aaf"
+          },
+          "loop": {
+            "start": 11818,
+            "end": 12524
+          }
+        },
+        {
+          "keyRange": {
+            "low": 38,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 43,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 23000,
+          "audio": {
+            "type": "external",
+            "url": "zone_G2.mp3",
+            "codec": "mp3",
+            "sha256": "248c6457a75e3dfb"
+          },
+          "loop": {
+            "start": 12868,
+            "end": 13339
+          }
+        }
+      ]
+    }
+  }
+}

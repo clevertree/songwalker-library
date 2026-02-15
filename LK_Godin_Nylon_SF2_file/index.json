@@ -1,0 +1,26 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "LK Godin Nylon SF2 file",
+  "description": "LK Godin Nylon SF2 file soundfont — 1 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Acoustic Guitar (nylon)",
+      "path": "instruments/guitar/Acoustic_Guitar_nylon/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:24",
+        "one-shot"
+      ],
+      "gmProgram": 24,
+      "zoneCount": 9,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Music Box",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:10",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 10,
+    "gmCategory": "chromatic-percussion",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "05f7182b16dcffa0"
+          },
+          "loop": {
+            "start": 20167,
+            "end": 21006
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 97
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "f005169103ca52bf"
+          },
+          "loop": {
+            "start": 16795,
+            "end": 21389
+          }
+        }
+      ]
+    }
+  }
+}

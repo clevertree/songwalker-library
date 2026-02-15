@@ -1,0 +1,192 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Distortion Guitar",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:30",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 30,
+    "gmCategory": "guitar",
+    "source": "Aspirin",
+    "variant": 4,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 37
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "4bddc6b617853367"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 38,
+            "high": 40
+          },
+          "pitch": {
+            "rootNote": 42,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb2.mp3",
+            "codec": "mp3",
+            "sha256": "c83e0ad38493f2bf"
+          },
+          "loop": {
+            "start": 2040,
+            "end": 26661
+          }
+        },
+        {
+          "keyRange": {
+            "low": 41,
+            "high": 47
+          },
+          "pitch": {
+            "rootNote": 42,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb2.mp3",
+            "codec": "mp3",
+            "sha256": "c83e0ad38493f2bf"
+          },
+          "loop": {
+            "start": 2040,
+            "end": 26661
+          }
+        },
+        {
+          "keyRange": {
+            "low": 48,
+            "high": 57
+          },
+          "pitch": {
+            "rootNote": 54,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb3.mp3",
+            "codec": "mp3",
+            "sha256": "c209b186c584edb7"
+          },
+          "loop": {
+            "start": 10704,
+            "end": 26641
+          }
+        },
+        {
+          "keyRange": {
+            "low": 58,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "cf16058cdae96d52"
+          },
+          "loop": {
+            "start": 7072,
+            "end": 21417
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "cf16058cdae96d52"
+          },
+          "loop": {
+            "start": 7072,
+            "end": 21417
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "14b16e484d937d72"
+          },
+          "loop": {
+            "start": 6986,
+            "end": 25032
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "70151ec03e7e24e1"
+          },
+          "loop": {
+            "start": 15591,
+            "end": 18326
+          }
+        }
+      ]
+    }
+  }
+}

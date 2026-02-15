@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Lead 1 (square)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-lead",
+    "gm:80",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 80,
+    "gmCategory": "synth-lead",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 77
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "2598fb16d8ced827"
+          },
+          "loop": {
+            "start": 250,
+            "end": 419
+          }
+        },
+        {
+          "keyRange": {
+            "low": 78,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 90
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "086e13f1214a22f2"
+          },
+          "loop": {
+            "start": 213,
+            "end": 298
+          }
+        }
+      ]
+    }
+  }
+}

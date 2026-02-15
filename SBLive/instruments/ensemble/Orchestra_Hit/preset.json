@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Orchestra Hit",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ensemble",
+    "gm:55",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 55,
+    "gmCategory": "ensemble",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "2ad4fa8fb433f0bc"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 71
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "2ad4fa8fb433f0bc"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 72,
+            "high": 91
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "2ad4fa8fb433f0bc"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 92,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "2ad4fa8fb433f0bc"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "2ad4fa8fb433f0bc"
+          }
+        }
+      ]
+    }
+  }
+}

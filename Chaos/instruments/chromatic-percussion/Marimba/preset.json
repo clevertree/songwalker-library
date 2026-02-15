@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Marimba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:12",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 12,
+    "gmCategory": "chromatic-percussion",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 54
+          },
+          "pitch": {
+            "rootNote": 58,
+            "fineTuneCents": 33
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb3.mp3",
+            "codec": "mp3",
+            "sha256": "1043eabd7bb82abb"
+          },
+          "loop": {
+            "start": 1252,
+            "end": 1437
+          }
+        },
+        {
+          "keyRange": {
+            "low": 55,
+            "high": 89
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "c8111a219e796155"
+          },
+          "loop": {
+            "start": 569,
+            "end": 653
+          }
+        },
+        {
+          "keyRange": {
+            "low": 90,
+            "high": 103
+          },
+          "pitch": {
+            "rootNote": 103,
+            "fineTuneCents": 2
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G7.mp3",
+            "codec": "mp3",
+            "sha256": "bb53b001acd0a939"
+          },
+          "loop": {
+            "start": 340,
+            "end": 368
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 96,
+            "fineTuneCents": 3
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C7.mp3",
+            "codec": "mp3",
+            "sha256": "3beae4b7c69f4e63"
+          },
+          "loop": {
+            "start": 3,
+            "end": 45
+          }
+        }
+      ]
+    }
+  }
+}

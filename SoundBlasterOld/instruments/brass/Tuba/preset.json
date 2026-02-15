@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tuba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:58",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 58,
+    "gmCategory": "brass",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 86
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.raw",
+            "codec": "raw",
+            "sha256": "59d86fe2ad2dc10f"
+          },
+          "loop": {
+            "start": 1831,
+            "end": 1960
+          }
+        },
+        {
+          "keyRange": {
+            "low": 87,
+            "high": 111
+          },
+          "pitch": {
+            "rootNote": 89,
+            "fineTuneCents": 84
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F6.raw",
+            "codec": "raw",
+            "sha256": "3d12429e01531c28"
+          },
+          "loop": {
+            "start": 1504,
+            "end": 1564
+          }
+        },
+        {
+          "keyRange": {
+            "low": 112,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

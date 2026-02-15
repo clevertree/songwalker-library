@@ -1,0 +1,61 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Orchestra Hit",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ensemble",
+    "gm:55",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 55,
+    "gmCategory": "ensemble",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 119
+          },
+          "pitch": {
+            "rootNote": 97,
+            "fineTuneCents": 65
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db7.raw",
+            "codec": "raw",
+            "sha256": "c5b4d7dffd12c250"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 120,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          }
+        }
+      ]
+    }
+  }
+}

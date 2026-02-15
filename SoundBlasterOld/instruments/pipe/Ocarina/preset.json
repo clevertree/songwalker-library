@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Ocarina",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:79",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 79,
+    "gmCategory": "pipe",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 107
+          },
+          "pitch": {
+            "rootNote": 85,
+            "fineTuneCents": 76
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db6.raw",
+            "codec": "raw",
+            "sha256": "99b4ebff95f42d40"
+          },
+          "loop": {
+            "start": 1144,
+            "end": 1182
+          }
+        },
+        {
+          "keyRange": {
+            "low": 108,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

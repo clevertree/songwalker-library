@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Contrabass",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:43",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 43,
+    "gmCategory": "strings",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 85
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 68
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.raw",
+            "codec": "raw",
+            "sha256": "3b7cc661f6c07a47"
+          },
+          "loop": {
+            "start": 1302,
+            "end": 1438
+          }
+        },
+        {
+          "keyRange": {
+            "low": 86,
+            "high": 105
+          },
+          "pitch": {
+            "rootNote": 83,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B5.raw",
+            "codec": "raw",
+            "sha256": "bf5881e4482d1fe5"
+          },
+          "loop": {
+            "start": 799,
+            "end": 842
+          }
+        },
+        {
+          "keyRange": {
+            "low": 106,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

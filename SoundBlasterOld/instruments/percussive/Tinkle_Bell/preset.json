@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tinkle Bell",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:112",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 112,
+    "gmCategory": "percussive",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.raw",
+            "codec": "raw",
+            "sha256": "a0f1aa8d0b012ba3"
+          }
+        }
+      ]
+    }
+  }
+}

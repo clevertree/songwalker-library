@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Choir Aahs",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "ensemble",
+    "gm:52",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 52,
+    "gmCategory": "ensemble",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 54
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "f3189f6fffd8622d"
+          },
+          "loop": {
+            "start": 0,
+            "end": 22096
+          }
+        },
+        {
+          "keyRange": {
+            "low": 55,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "b3e11092b070bdff"
+          },
+          "loop": {
+            "start": 0,
+            "end": 22260
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "0cc40502c72aae4f"
+          },
+          "loop": {
+            "start": 4,
+            "end": 18390
+          }
+        }
+      ]
+    }
+  }
+}

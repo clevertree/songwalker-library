@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "FX 8 (sci-fi)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-effects",
+    "gm:103",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 103,
+    "gmCategory": "synth-effects",
+    "source": "Aspirin",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 67
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "cbe0bc7ed2e23ea5"
+          },
+          "loop": {
+            "start": 26235,
+            "end": 26289
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 83
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 67
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "cbe0bc7ed2e23ea5"
+          },
+          "loop": {
+            "start": 26235,
+            "end": 26289
+          }
+        },
+        {
+          "keyRange": {
+            "low": 84,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 67
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "cbe0bc7ed2e23ea5"
+          },
+          "loop": {
+            "start": 26235,
+            "end": 26289
+          }
+        }
+      ]
+    }
+  }
+}

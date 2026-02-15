@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Lead 2 (sawtooth)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-lead",
+    "gm:81",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 81,
+    "gmCategory": "synth-lead",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 100
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 42
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.mp3",
+            "codec": "mp3",
+            "sha256": "791ef376b99b1302"
+          },
+          "loop": {
+            "start": 2368,
+            "end": 2423
+          }
+        }
+      ]
+    }
+  }
+}

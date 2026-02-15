@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Ocarina",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:79",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 79,
+    "gmCategory": "pipe",
+    "source": "FluidR3_GM",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 52
+          },
+          "pitch": {
+            "rootNote": 52,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E3.mp3",
+            "codec": "mp3",
+            "sha256": "d5255420ec320a6f"
+          },
+          "loop": {
+            "start": 39130,
+            "end": 60001
+          }
+        },
+        {
+          "keyRange": {
+            "low": 53,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 62,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D4.mp3",
+            "codec": "mp3",
+            "sha256": "cc9d10002a0ee6da"
+          },
+          "loop": {
+            "start": 39149,
+            "end": 60001
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 92
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "3a7bde1b3351150b"
+          },
+          "loop": {
+            "start": 40234,
+            "end": 60001
+          }
+        },
+        {
+          "keyRange": {
+            "low": 93,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.mp3",
+            "codec": "mp3",
+            "sha256": "91ab4662bac6c761"
+          },
+          "loop": {
+            "start": 20002,
+            "end": 40001
+          }
+        }
+      ]
+    }
+  }
+}

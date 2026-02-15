@@ -1,0 +1,133 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Contrabass",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:43",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 43,
+    "gmCategory": "strings",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 34,
+            "high": 35
+          },
+          "pitch": {
+            "rootNote": 34,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb1.mp3",
+            "codec": "mp3",
+            "sha256": "1f8f7f73440a297d"
+          },
+          "loop": {
+            "start": 7377,
+            "end": 8135
+          }
+        },
+        {
+          "keyRange": {
+            "low": 36,
+            "high": 38
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22042,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "da01534c9bb62d64"
+          },
+          "loop": {
+            "start": 6078,
+            "end": 6752
+          }
+        },
+        {
+          "keyRange": {
+            "low": 39,
+            "high": 42
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22044,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "305bae6c31cf1499"
+          },
+          "loop": {
+            "start": 2617,
+            "end": 3152
+          }
+        },
+        {
+          "keyRange": {
+            "low": 43,
+            "high": 46
+          },
+          "pitch": {
+            "rootNote": 43,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_G2.mp3",
+            "codec": "mp3",
+            "sha256": "f929240d82de2a1d"
+          },
+          "loop": {
+            "start": 3665,
+            "end": 4115
+          }
+        },
+        {
+          "keyRange": {
+            "low": 47,
+            "high": 86
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22042,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "68754a2c712498e4"
+          },
+          "loop": {
+            "start": 2143,
+            "end": 2480
+          }
+        }
+      ]
+    }
+  }
+}

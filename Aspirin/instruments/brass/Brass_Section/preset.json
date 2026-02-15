@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Brass Section",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:61",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 61,
+    "gmCategory": "brass",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 12,
+            "high": 85
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 39
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "497232da61c46139"
+          },
+          "loop": {
+            "start": 16058,
+            "end": 40249
+          }
+        },
+        {
+          "keyRange": {
+            "low": 86,
+            "high": 106
+          },
+          "pitch": {
+            "rootNote": 92,
+            "fineTuneCents": 39
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab6.mp3",
+            "codec": "mp3",
+            "sha256": "1e06cca30d1b1bb0"
+          },
+          "loop": {
+            "start": 1288,
+            "end": 16029
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tuba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:58",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 58,
+    "gmCategory": "brass",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 12,
+            "high": 33
+          },
+          "pitch": {
+            "rootNote": 49,
+            "fineTuneCents": 82
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db3.raw",
+            "codec": "raw",
+            "sha256": "6c1bae292664874d"
+          },
+          "loop": {
+            "start": 2303,
+            "end": 2606
+          }
+        },
+        {
+          "keyRange": {
+            "low": 34,
+            "high": 40
+          },
+          "pitch": {
+            "rootNote": 51,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb3.raw",
+            "codec": "raw",
+            "sha256": "98787b7b10a053b4"
+          },
+          "loop": {
+            "start": 3456,
+            "end": 3729
+          }
+        },
+        {
+          "keyRange": {
+            "low": 41,
+            "high": 44
+          },
+          "pitch": {
+            "rootNote": 55,
+            "fineTuneCents": 68
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G3.raw",
+            "codec": "raw",
+            "sha256": "74311a47435c1eb5"
+          },
+          "loop": {
+            "start": 3331,
+            "end": 3547
+          }
+        },
+        {
+          "keyRange": {
+            "low": 45,
+            "high": 51
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.raw",
+            "codec": "raw",
+            "sha256": "09b7910447878199"
+          },
+          "loop": {
+            "start": 3376,
+            "end": 3548
+          }
+        },
+        {
+          "keyRange": {
+            "low": 52,
+            "high": 59
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.raw",
+            "codec": "raw",
+            "sha256": "09b7910447878199"
+          },
+          "loop": {
+            "start": 3376,
+            "end": 3548
+          }
+        },
+        {
+          "keyRange": {
+            "low": 60,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 62
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.raw",
+            "codec": "raw",
+            "sha256": "09b7910447878199"
+          },
+          "loop": {
+            "start": 3376,
+            "end": 3548
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 85,
+            "fineTuneCents": 31
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db6.raw",
+            "codec": "raw",
+            "sha256": "1805679ec3ecd3a8"
+          },
+          "loop": {
+            "start": 756,
+            "end": 795
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 97
+          },
+          "pitch": {
+            "rootNote": 85,
+            "fineTuneCents": 31
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db6.raw",
+            "codec": "raw",
+            "sha256": "1805679ec3ecd3a8"
+          },
+          "loop": {
+            "start": 756,
+            "end": 795
+          }
+        },
+        {
+          "keyRange": {
+            "low": 98,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 107,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B7.raw",
+            "codec": "raw",
+            "sha256": "88cb3e5eca8f714b"
+          },
+          "loop": {
+            "start": 351,
+            "end": 362
+          }
+        }
+      ]
+    }
+  }
+}

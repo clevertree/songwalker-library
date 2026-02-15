@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Synth Bass 2",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:39",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 39,
+    "gmCategory": "bass",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 32
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "af06767203874e44"
+          },
+          "loop": {
+            "start": 5614,
+            "end": 6966
+          }
+        },
+        {
+          "keyRange": {
+            "low": 33,
+            "high": 44
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "af06767203874e44"
+          },
+          "loop": {
+            "start": 5614,
+            "end": 6966
+          }
+        },
+        {
+          "keyRange": {
+            "low": 45,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "2c232310d8b23d17"
+          },
+          "loop": {
+            "start": 5075,
+            "end": 6729
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "2c232310d8b23d17"
+          },
+          "loop": {
+            "start": 5075,
+            "end": 6729
+          }
+        }
+      ]
+    }
+  }
+}

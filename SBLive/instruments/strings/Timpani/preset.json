@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Timpani",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:47",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 47,
+    "gmCategory": "strings",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 45
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.raw",
+            "codec": "raw",
+            "sha256": "606437ff7edf1ab3"
+          },
+          "loop": {
+            "start": 19778,
+            "end": 27125
+          }
+        },
+        {
+          "keyRange": {
+            "low": 46,
+            "high": 58
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.raw",
+            "codec": "raw",
+            "sha256": "606437ff7edf1ab3"
+          },
+          "loop": {
+            "start": 19778,
+            "end": 27125
+          }
+        },
+        {
+          "keyRange": {
+            "low": 59,
+            "high": 70
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.raw",
+            "codec": "raw",
+            "sha256": "606437ff7edf1ab3"
+          },
+          "loop": {
+            "start": 19778,
+            "end": 27125
+          }
+        },
+        {
+          "keyRange": {
+            "low": 71,
+            "high": 81
+          },
+          "pitch": {
+            "rootNote": 67,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G4.raw",
+            "codec": "raw",
+            "sha256": "606437ff7edf1ab3"
+          },
+          "loop": {
+            "start": 19778,
+            "end": 27125
+          }
+        }
+      ]
+    }
+  }
+}

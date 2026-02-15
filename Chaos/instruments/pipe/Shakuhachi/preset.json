@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Shakuhachi",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:77",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 77,
+    "gmCategory": "pipe",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 88,
+            "fineTuneCents": 73
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E6.mp3",
+            "codec": "mp3",
+            "sha256": "631f6aa2c7efddeb"
+          },
+          "loop": {
+            "start": 3174,
+            "end": 3206
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 79
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "1ac92b4906bcd535"
+          },
+          "loop": {
+            "start": 1570,
+            "end": 8382
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "f169f2656bd77b5b"
+          },
+          "loop": {
+            "start": 1020,
+            "end": 5487
+          }
+        }
+      ]
+    }
+  }
+}

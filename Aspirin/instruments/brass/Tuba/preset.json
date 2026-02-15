@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tuba",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "brass",
+    "gm:58",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 58,
+    "gmCategory": "brass",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 61
+          },
+          "pitch": {
+            "rootNote": 50,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 23000,
+          "audio": {
+            "type": "external",
+            "url": "zone_D3.mp3",
+            "codec": "mp3",
+            "sha256": "178ba35676527b8d"
+          },
+          "loop": {
+            "start": 9911,
+            "end": 13202
+          }
+        },
+        {
+          "keyRange": {
+            "low": 62,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 23000,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "85ec544ac6ca496d"
+          },
+          "loop": {
+            "start": 9880,
+            "end": 12950
+          }
+        }
+      ]
+    }
+  }
+}

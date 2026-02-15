@@ -1,0 +1,146 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (muted)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:28",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 28,
+    "gmCategory": "guitar",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 55
+          },
+          "pitch": {
+            "rootNote": 57,
+            "fineTuneCents": 54
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A3.mp3",
+            "codec": "mp3",
+            "sha256": "32bf3ca7b7ff35cd"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 56,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.mp3",
+            "codec": "mp3",
+            "sha256": "500d10338b29801e"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "20b36b2585984029"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 69
+          },
+          "pitch": {
+            "rootNote": 74,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D5.mp3",
+            "codec": "mp3",
+            "sha256": "2d2fcbcec0819961"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 70,
+            "high": 74
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "b3f04dac16bafd95"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 75,
+            "high": 79
+          },
+          "pitch": {
+            "rootNote": 83,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B5.mp3",
+            "codec": "mp3",
+            "sha256": "8ca3934aba451c23"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 80,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 88,
+            "fineTuneCents": 85
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E6.mp3",
+            "codec": "mp3",
+            "sha256": "35f5e0e8dffdd321"
+          }
+        }
+      ]
+    }
+  }
+}

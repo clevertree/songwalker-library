@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Pad 2 (warm)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-pad",
+    "gm:89",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 89,
+    "gmCategory": "synth-pad",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "406301ac725935bc"
+          },
+          "loop": {
+            "start": 7,
+            "end": 8289
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 85,
+            "fineTuneCents": 25
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db6.mp3",
+            "codec": "mp3",
+            "sha256": "32b827650b90231b"
+          },
+          "loop": {
+            "start": 35,
+            "end": 9097
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 94,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb6.mp3",
+            "codec": "mp3",
+            "sha256": "506341412bbe181c"
+          },
+          "loop": {
+            "start": 1272,
+            "end": 9962
+          }
+        }
+      ]
+    }
+  }
+}

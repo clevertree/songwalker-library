@@ -1,0 +1,2425 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Aspirin",
+  "description": "Aspirin soundfont — 128 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Accordion",
+      "path": "instruments/organ/Accordion/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:21",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 21,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Acoustic Bass",
+      "path": "instruments/bass/Acoustic_Bass/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:32",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 32,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Acoustic Grand Piano",
+      "path": "instruments/piano/Acoustic_Grand_Piano/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:0",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 0,
+      "zoneCount": 22,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Acoustic Guitar (nylon)",
+      "path": "instruments/guitar/Acoustic_Guitar_nylon/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:24",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 24,
+      "zoneCount": 10,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Acoustic Guitar (steel)",
+      "path": "instruments/guitar/Acoustic_Guitar_steel/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:25",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 25,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Agogo",
+      "path": "instruments/percussive/Agogo/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:113",
+        "one-shot"
+      ],
+      "gmProgram": 113,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Alto Sax",
+      "path": "instruments/reed/Alto_Sax/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:65",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 65,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 17,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Applause",
+      "path": "instruments/sound-effects/Applause/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:126",
+        "one-shot"
+      ],
+      "gmProgram": 126,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Bagpipe",
+      "path": "instruments/ethnic/Bagpipe/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:109",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 109,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 29,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Banjo",
+      "path": "instruments/ethnic/Banjo/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:105",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 105,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Baritone Sax",
+      "path": "instruments/reed/Baritone_Sax/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:67",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 67,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 17,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Bassoon",
+      "path": "instruments/reed/Bassoon/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:70",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 70,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Bird Tweet",
+      "path": "instruments/sound-effects/Bird_Tweet/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:123",
+        "one-shot"
+      ],
+      "gmProgram": 123,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Blown bottle",
+      "path": "instruments/pipe/Blown_bottle/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:76",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 76,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Brass Section",
+      "path": "instruments/brass/Brass_Section/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:61",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 61,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 12,
+        "high": 106
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Breath Noise",
+      "path": "instruments/sound-effects/Breath_Noise/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:121",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 121,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Bright Acoustic Piano",
+      "path": "instruments/piano/Bright_Acoustic_Piano/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:1",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 1,
+      "zoneCount": 22,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Celesta",
+      "path": "instruments/chromatic-percussion/Celesta/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:8",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 8,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Cello",
+      "path": "instruments/strings/Cello/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:42",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 42,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 24,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Choir Aahs",
+      "path": "instruments/ensemble/Choir_Aahs/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:52",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 52,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Church Organ",
+      "path": "instruments/organ/Church_Organ/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:19",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 19,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Clarinet",
+      "path": "instruments/reed/Clarinet/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:71",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 71,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Clavinet",
+      "path": "instruments/piano/Clavinet/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:7",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 7,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Contrabass",
+      "path": "instruments/strings/Contrabass/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:43",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 43,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 24,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Distortion Guitar",
+      "path": "instruments/guitar/Distortion_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:30",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 30,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Drawbar Organ",
+      "path": "instruments/organ/Drawbar_Organ/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:16",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 16,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 24,
+        "high": 101
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Dulcimer",
+      "path": "instruments/chromatic-percussion/Dulcimer/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:15",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 15,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Bass (finger)",
+      "path": "instruments/bass/Electric_Bass_finger/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:33",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 33,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Bass (pick)",
+      "path": "instruments/bass/Electric_Bass_pick/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:34",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 34,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Grand Piano",
+      "path": "instruments/piano/Electric_Grand_Piano/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:2",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 2,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 0,
+        "high": 93
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (clean)",
+      "path": "instruments/guitar/Electric_Guitar_clean/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:27",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 27,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 12,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (jazz)",
+      "path": "instruments/guitar/Electric_Guitar_jazz/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:26",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 26,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 17,
+        "high": 102
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Guitar (muted)",
+      "path": "instruments/guitar/Electric_Guitar_muted/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:28",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 28,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Piano 1",
+      "path": "instruments/piano/Electric_Piano_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:4",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 4,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 12,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Electric Piano 2",
+      "path": "instruments/piano/Electric_Piano_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:5",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 5,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 0,
+        "high": 93
+      }
+    },
+    {
+      "type": "preset",
+      "name": "English Horn",
+      "path": "instruments/reed/English_Horn/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:69",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 69,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Fiddle",
+      "path": "instruments/ethnic/Fiddle/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:110",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 110,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 24,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Flute",
+      "path": "instruments/pipe/Flute/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:73",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 73,
+      "zoneCount": 9,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "French Horn",
+      "path": "instruments/brass/French_Horn/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:60",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 60,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Fretless Bass",
+      "path": "instruments/bass/Fretless_Bass/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:35",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 35,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 1 (rain)",
+      "path": "instruments/synth-effects/FX_1_rain/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:96",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 96,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 2 (soundtrack)",
+      "path": "instruments/synth-effects/FX_2_soundtrack/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:97",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 97,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 3 (crystal)",
+      "path": "instruments/synth-effects/FX_3_crystal/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:98",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 98,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 4 (atmosphere)",
+      "path": "instruments/synth-effects/FX_4_atmosphere/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:99",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 99,
+      "zoneCount": 10,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 5 (brightness)",
+      "path": "instruments/synth-effects/FX_5_brightness/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:100",
+        "one-shot"
+      ],
+      "gmProgram": 100,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 6 (goblins)",
+      "path": "instruments/synth-effects/FX_6_goblins/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:101",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 101,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 7 (echoes)",
+      "path": "instruments/synth-effects/FX_7_echoes/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:102",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 102,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "FX 8 (sci-fi)",
+      "path": "instruments/synth-effects/FX_8_scifi/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-effects",
+        "gm:103",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 103,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Glockenspiel",
+      "path": "instruments/chromatic-percussion/Glockenspiel/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:9",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 9,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Guitar Fret Noise",
+      "path": "instruments/sound-effects/Guitar_Fret_Noise/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:120",
+        "one-shot"
+      ],
+      "gmProgram": 120,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Guitar Harmonics",
+      "path": "instruments/guitar/Guitar_Harmonics/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:31",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 31,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Gunshot",
+      "path": "instruments/sound-effects/Gunshot/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:127",
+        "one-shot"
+      ],
+      "gmProgram": 127,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Harmonica",
+      "path": "instruments/organ/Harmonica/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:22",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 22,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Harpsichord",
+      "path": "instruments/piano/Harpsichord/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:6",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 6,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Helicopter",
+      "path": "instruments/sound-effects/Helicopter/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:125",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 125,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Honky-tonk Piano",
+      "path": "instruments/piano/Honkytonk_Piano/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "piano",
+        "gm:3",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 3,
+      "zoneCount": 22,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Kalimba",
+      "path": "instruments/ethnic/Kalimba/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:108",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 108,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Koto",
+      "path": "instruments/ethnic/Koto/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:107",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 107,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 1 (square)",
+      "path": "instruments/synth-lead/Lead_1_square/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:80",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 80,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 2 (sawtooth)",
+      "path": "instruments/synth-lead/Lead_2_sawtooth/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:81",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 81,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 3 (calliope)",
+      "path": "instruments/synth-lead/Lead_3_calliope/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:82",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 82,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 4 (chiff)",
+      "path": "instruments/synth-lead/Lead_4_chiff/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:83",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 83,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 5 (charang)",
+      "path": "instruments/synth-lead/Lead_5_charang/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:84",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 84,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 6 (voice)",
+      "path": "instruments/synth-lead/Lead_6_voice/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:85",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 85,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 7 (fifths)",
+      "path": "instruments/synth-lead/Lead_7_fifths/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:86",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 86,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Lead 8 (bass + lead)",
+      "path": "instruments/synth-lead/Lead_8_bass_lead/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-lead",
+        "gm:87",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 87,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Marimba",
+      "path": "instruments/chromatic-percussion/Marimba/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:12",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 12,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Melodic Tom",
+      "path": "instruments/percussive/Melodic_Tom/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:117",
+        "one-shot"
+      ],
+      "gmProgram": 117,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Music Box",
+      "path": "instruments/chromatic-percussion/Music_Box/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:10",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 10,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Muted Trumpet",
+      "path": "instruments/brass/Muted_Trumpet/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:59",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 59,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Oboe",
+      "path": "instruments/reed/Oboe/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:68",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 68,
+      "zoneCount": 7,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Ocarina",
+      "path": "instruments/pipe/Ocarina/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:79",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 79,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Orchestra Hit",
+      "path": "instruments/ensemble/Orchestra_Hit/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:55",
+        "one-shot"
+      ],
+      "gmProgram": 55,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Orchestral Harp",
+      "path": "instruments/strings/Orchestral_Harp/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:46",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 46,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Overdriven Guitar",
+      "path": "instruments/guitar/Overdriven_Guitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:29",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 29,
+      "zoneCount": 6,
+      "keyRange": {
+        "low": 48,
+        "high": 112
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 1 (new age)",
+      "path": "instruments/synth-pad/Pad_1_new_age/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:88",
+        "one-shot"
+      ],
+      "gmProgram": 88,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 2 (warm)",
+      "path": "instruments/synth-pad/Pad_2_warm/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:89",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 89,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 3 (polysynth)",
+      "path": "instruments/synth-pad/Pad_3_polysynth/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:90",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 90,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 4 (choir)",
+      "path": "instruments/synth-pad/Pad_4_choir/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:91",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 91,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 105
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 5 (bowed)",
+      "path": "instruments/synth-pad/Pad_5_bowed/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:92",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 92,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 6 (metallic)",
+      "path": "instruments/synth-pad/Pad_6_metallic/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:93",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 93,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 7 (halo)",
+      "path": "instruments/synth-pad/Pad_7_halo/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:94",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 94,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pad 8 (sweep)",
+      "path": "instruments/synth-pad/Pad_8_sweep/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "synth-pad",
+        "gm:95",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 95,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pan Flute",
+      "path": "instruments/pipe/Pan_Flute/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:75",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 75,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Percussive Organ",
+      "path": "instruments/organ/Percussive_Organ/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:17",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 17,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Piccolo",
+      "path": "instruments/pipe/Piccolo/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:72",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 72,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 105
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Pizzicato Strings",
+      "path": "instruments/strings/Pizzicato_Strings/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:45",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 45,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Recorder",
+      "path": "instruments/pipe/Recorder/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:74",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 74,
+      "zoneCount": 9,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Reed Organ",
+      "path": "instruments/organ/Reed_Organ/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:20",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 20,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Reverse Cymbal",
+      "path": "instruments/percussive/Reverse_Cymbal/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:119",
+        "one-shot"
+      ],
+      "gmProgram": 119,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 12,
+        "high": 107
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Rock Organ",
+      "path": "instruments/organ/Rock_Organ/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:18",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 18,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Seashore",
+      "path": "instruments/sound-effects/Seashore/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:122",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 122,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Shakuhachi",
+      "path": "instruments/pipe/Shakuhachi/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:77",
+        "one-shot"
+      ],
+      "gmProgram": 77,
+      "zoneCount": 11,
+      "keyRange": {
+        "low": 21,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Shamisen",
+      "path": "instruments/ethnic/Shamisen/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:106",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 106,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Shanai",
+      "path": "instruments/ethnic/Shanai/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:111",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 111,
+      "zoneCount": 20,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Sitar",
+      "path": "instruments/ethnic/Sitar/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ethnic",
+        "gm:104",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 104,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Slap Bass 1",
+      "path": "instruments/bass/Slap_Bass_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:36",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 36,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 72
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Slap Bass 2",
+      "path": "instruments/bass/Slap_Bass_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:37",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 37,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Soprano Sax",
+      "path": "instruments/reed/Soprano_Sax/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:64",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 64,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Steel Drums",
+      "path": "instruments/percussive/Steel_Drums/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:114",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 114,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "String Ensemble 1",
+      "path": "instruments/ensemble/String_Ensemble_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:48",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 48,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "String Ensemble 2",
+      "path": "instruments/ensemble/String_Ensemble_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:49",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 49,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Bass 1",
+      "path": "instruments/bass/Synth_Bass_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:38",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 38,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 96
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Bass 2",
+      "path": "instruments/bass/Synth_Bass_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "bass",
+        "gm:39",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 39,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Brass 1",
+      "path": "instruments/brass/Synth_Brass_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:62",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 62,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Brass 2",
+      "path": "instruments/brass/Synth_Brass_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:63",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 63,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Choir",
+      "path": "instruments/ensemble/Synth_Choir/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:54",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 54,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Drum",
+      "path": "instruments/percussive/Synth_Drum/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:118",
+        "one-shot"
+      ],
+      "gmProgram": 118,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Strings 1",
+      "path": "instruments/ensemble/Synth_Strings_1/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:50",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 50,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Synth Strings 2",
+      "path": "instruments/ensemble/Synth_Strings_2/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:51",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 51,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Taiko Drum",
+      "path": "instruments/percussive/Taiko_Drum/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:116",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 116,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tango Accordion",
+      "path": "instruments/organ/Tango_Accordion/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "organ",
+        "gm:23",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 23,
+      "zoneCount": 9,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Telephone Ring",
+      "path": "instruments/sound-effects/Telephone_Ring/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "sound-effects",
+        "gm:124",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 124,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tenor Sax",
+      "path": "instruments/reed/Tenor_Sax/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "reed",
+        "gm:66",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 66,
+      "zoneCount": 4,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Timpani",
+      "path": "instruments/strings/Timpani/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:47",
+        "one-shot"
+      ],
+      "gmProgram": 47,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tinkle Bell",
+      "path": "instruments/percussive/Tinkle_Bell/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:112",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 112,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tremolo Strings",
+      "path": "instruments/strings/Tremolo_Strings/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:44",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 44,
+      "zoneCount": 8,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Trombone",
+      "path": "instruments/brass/Trombone/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:57",
+        "one-shot"
+      ],
+      "gmProgram": 57,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Trumpet",
+      "path": "instruments/brass/Trumpet/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:56",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 56,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tuba",
+      "path": "instruments/brass/Tuba/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "brass",
+        "gm:58",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 58,
+      "zoneCount": 2,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Tubular Bells",
+      "path": "instruments/chromatic-percussion/Tubular_Bells/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:14",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 14,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Vibraphone",
+      "path": "instruments/chromatic-percussion/Vibraphone/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:11",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 11,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Viola",
+      "path": "instruments/strings/Viola/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:41",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 41,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Violin",
+      "path": "instruments/strings/Violin/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "strings",
+        "gm:40",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 40,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Voice Oohs",
+      "path": "instruments/ensemble/Voice_Oohs/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "ensemble",
+        "gm:53",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 53,
+      "zoneCount": 5,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Whistle",
+      "path": "instruments/pipe/Whistle/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "pipe",
+        "gm:78",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 78,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 108
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Woodblock",
+      "path": "instruments/percussive/Woodblock/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "percussive",
+        "gm:115",
+        "one-shot"
+      ],
+      "gmProgram": 115,
+      "zoneCount": 1,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    },
+    {
+      "type": "preset",
+      "name": "Xylophone",
+      "path": "instruments/chromatic-percussion/Xylophone/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "chromatic-percussion",
+        "gm:13",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 13,
+      "zoneCount": 3,
+      "keyRange": {
+        "low": 0,
+        "high": 127
+      }
+    }
+  ]
+}

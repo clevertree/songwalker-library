@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Whistle",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:78",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 78,
+    "gmCategory": "pipe",
+    "source": "JCLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "bf4cdeb5bb176313"
+          },
+          "loop": {
+            "start": 1438,
+            "end": 2839
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 101
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 64
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "bf4cdeb5bb176313"
+          },
+          "loop": {
+            "start": 1438,
+            "end": 2839
+          }
+        },
+        {
+          "keyRange": {
+            "low": 102,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 108,
+            "fineTuneCents": 87
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C8.mp3",
+            "codec": "mp3",
+            "sha256": "179a8d5fdb22fd9a"
+          },
+          "loop": {
+            "start": 331,
+            "end": 341
+          }
+        }
+      ]
+    }
+  }
+}

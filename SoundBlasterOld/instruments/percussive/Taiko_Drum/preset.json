@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Taiko Drum",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:116",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 116,
+    "gmCategory": "percussive",
+    "source": "SoundBlasterOld",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 106,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb7.raw",
+            "codec": "raw",
+            "sha256": "9e06459d34a087bf"
+          },
+          "loop": {
+            "start": 7079,
+            "end": 7695
+          }
+        }
+      ]
+    }
+  }
+}

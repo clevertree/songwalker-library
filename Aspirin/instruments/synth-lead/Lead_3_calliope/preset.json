@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Lead 3 (calliope)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-lead",
+    "gm:82",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 82,
+    "gmCategory": "synth-lead",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 79
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "1ac92b4906bcd535"
+          },
+          "loop": {
+            "start": 1570,
+            "end": 8382
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "f169f2656bd77b5b"
+          },
+          "loop": {
+            "start": 1020,
+            "end": 5487
+          }
+        },
+        {
+          "keyRange": {
+            "low": 104,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 65
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.mp3",
+            "codec": "mp3",
+            "sha256": "480d05d9f0f38a9a"
+          },
+          "loop": {
+            "start": 3,
+            "end": 4677
+          }
+        }
+      ]
+    }
+  }
+}

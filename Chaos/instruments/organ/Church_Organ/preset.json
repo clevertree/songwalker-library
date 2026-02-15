@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Church Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:19",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 19,
+    "gmCategory": "organ",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 68
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 43
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.mp3",
+            "codec": "mp3",
+            "sha256": "4289ae4ea760579b"
+          },
+          "loop": {
+            "start": 2319,
+            "end": 2457
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 95,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B6.mp3",
+            "codec": "mp3",
+            "sha256": "697938aea7fad67d"
+          },
+          "loop": {
+            "start": 9,
+            "end": 51
+          }
+        },
+        {
+          "keyRange": {
+            "low": 69,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 43
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "d6fb499514713c1b"
+          },
+          "loop": {
+            "start": 2377,
+            "end": 2446
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 95,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B6.mp3",
+            "codec": "mp3",
+            "sha256": "697938aea7fad67d"
+          },
+          "loop": {
+            "start": 9,
+            "end": 51
+          }
+        }
+      ]
+    }
+  }
+}

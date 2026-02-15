@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Bird Tweet",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:123",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 123,
+    "gmCategory": "sound-effects",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 112,
+            "fineTuneCents": 24
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E8.raw",
+            "codec": "raw",
+            "sha256": "11e712e443c0b115"
+          },
+          "loop": {
+            "start": 36,
+            "end": 17358
+          }
+        }
+      ]
+    }
+  }
+}

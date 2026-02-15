@@ -1,0 +1,154 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Grand Piano",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "piano",
+    "gm:2",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 2,
+    "gmCategory": "piano",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 75,
+            "fineTuneCents": 43
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb5.raw",
+            "codec": "raw",
+            "sha256": "3ab3f374d1dca626"
+          },
+          "loop": {
+            "start": 10655,
+            "end": 17227
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 63
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 92
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.raw",
+            "codec": "raw",
+            "sha256": "3262f6a6368dc2b3"
+          },
+          "loop": {
+            "start": 17637,
+            "end": 22127
+          }
+        },
+        {
+          "keyRange": {
+            "low": 64,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.raw",
+            "codec": "raw",
+            "sha256": "dd978c5ab0db33cc"
+          },
+          "loop": {
+            "start": 21506,
+            "end": 21569
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 82
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 98
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.raw",
+            "codec": "raw",
+            "sha256": "f7efefb1a7c1ab1f"
+          },
+          "loop": {
+            "start": 15428,
+            "end": 25212
+          }
+        },
+        {
+          "keyRange": {
+            "low": 83,
+            "high": 94
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.raw",
+            "codec": "raw",
+            "sha256": "1943f60ed31156ff"
+          },
+          "loop": {
+            "start": 6093,
+            "end": 6141
+          }
+        },
+        {
+          "keyRange": {
+            "low": 95,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

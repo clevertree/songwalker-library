@@ -1,0 +1,25 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Sawtooth Oscillator",
+  "category": "synth",
+  "tags": ["melodic", "oscillator", "sawtooth", "basic", "bright"],
+  "maxVoices": 64,
+  "metadata": {
+    "description": "A sawtooth wave oscillator with a bright, harmonically rich tone",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "oscillator",
+    "config": {
+      "waveform": "sawtooth",
+      "envelope": {
+        "attack": 0.01,
+        "decay": 0.1,
+        "sustain": 0.7,
+        "release": 0.3
+      }
+    }
+  }
+}

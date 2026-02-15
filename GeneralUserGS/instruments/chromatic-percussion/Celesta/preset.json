@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Celesta",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:8",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 8,
+    "gmCategory": "chromatic-percussion",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 93
+          },
+          "pitch": {
+            "rootNote": 100,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E7.mp3",
+            "codec": "mp3",
+            "sha256": "8b94c5e041eaa6ab"
+          },
+          "loop": {
+            "start": 17,
+            "end": 65
+          }
+        },
+        {
+          "keyRange": {
+            "low": 94,
+            "high": 114
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 93
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.mp3",
+            "codec": "mp3",
+            "sha256": "05298527d2c72a65"
+          },
+          "loop": {
+            "start": 15,
+            "end": 86
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tenor Sax",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "reed",
+    "gm:66",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 66,
+    "gmCategory": "reed",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 53
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "63f7a5d3aa076521"
+          },
+          "loop": {
+            "start": 5724,
+            "end": 11968
+          }
+        },
+        {
+          "keyRange": {
+            "low": 54,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "e596b06a584f307c"
+          },
+          "loop": {
+            "start": 3595,
+            "end": 8242
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "f91b9c9adc0011ff"
+          },
+          "loop": {
+            "start": 6979,
+            "end": 12290
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.mp3",
+            "codec": "mp3",
+            "sha256": "de5e877f1ba6ce55"
+          },
+          "loop": {
+            "start": 6619,
+            "end": 13735
+          }
+        }
+      ]
+    }
+  }
+}

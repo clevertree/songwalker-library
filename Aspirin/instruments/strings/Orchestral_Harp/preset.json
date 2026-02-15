@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Orchestral Harp",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:46",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 46,
+    "gmCategory": "strings",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "7375aef85ae40753"
+          },
+          "loop": {
+            "start": 13238,
+            "end": 15429
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 22050,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "d33a48ae23c837fc"
+          },
+          "loop": {
+            "start": 14354,
+            "end": 16542
+          }
+        }
+      ]
+    }
+  }
+}

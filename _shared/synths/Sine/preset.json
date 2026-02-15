@@ -1,0 +1,25 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Sine Oscillator",
+  "category": "synth",
+  "tags": ["melodic", "oscillator", "sine", "basic"],
+  "maxVoices": 64,
+  "metadata": {
+    "description": "A pure sine wave oscillator with a smooth envelope",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "oscillator",
+    "config": {
+      "waveform": "sine",
+      "envelope": {
+        "attack": 0.01,
+        "decay": 0.1,
+        "sustain": 0.8,
+        "release": 0.3
+      }
+    }
+  }
+}

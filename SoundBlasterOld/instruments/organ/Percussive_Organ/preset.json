@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Percussive Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:17",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 17,
+    "gmCategory": "organ",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 75
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 37
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.raw",
+            "codec": "raw",
+            "sha256": "b0afc84918c82a10"
+          },
+          "loop": {
+            "start": 2614,
+            "end": 2669
+          }
+        },
+        {
+          "keyRange": {
+            "low": 76,
+            "high": 121
+          },
+          "pitch": {
+            "rootNote": 99,
+            "fineTuneCents": 70
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb7.raw",
+            "codec": "raw",
+            "sha256": "87e9a46d89722c65"
+          },
+          "loop": {
+            "start": 2900,
+            "end": 2934
+          }
+        },
+        {
+          "keyRange": {
+            "low": 122,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

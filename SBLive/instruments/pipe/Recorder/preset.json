@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Recorder",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:74",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 74,
+    "gmCategory": "pipe",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.raw",
+            "codec": "raw",
+            "sha256": "b4b03758f662390a"
+          },
+          "loop": {
+            "start": 2159,
+            "end": 2212
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 107
+          },
+          "pitch": {
+            "rootNote": 107,
+            "fineTuneCents": 10
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B7.raw",
+            "codec": "raw",
+            "sha256": "76de71278dc38531"
+          },
+          "loop": {
+            "start": 430,
+            "end": 441
+          }
+        },
+        {
+          "keyRange": {
+            "low": 108,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.raw",
+            "codec": "raw",
+            "sha256": "05e8236a3214d2cb"
+          },
+          "loop": {
+            "start": 1318,
+            "end": 1330
+          }
+        }
+      ]
+    }
+  }
+}

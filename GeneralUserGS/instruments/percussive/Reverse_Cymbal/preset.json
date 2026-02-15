@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Reverse Cymbal",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:119",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 119,
+    "gmCategory": "percussive",
+    "source": "GeneralUserGS",
+    "variant": 4,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "1fb869b6d82d3b17"
+          },
+          "loop": {
+            "start": 1862,
+            "end": 6692
+          }
+        }
+      ]
+    }
+  }
+}

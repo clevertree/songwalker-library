@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Slap Bass 2",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:37",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 37,
+    "gmCategory": "bass",
+    "source": "GeneralUserGS",
+    "variant": 2,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 38
+          },
+          "pitch": {
+            "rootNote": 32,
+            "fineTuneCents": 95
+          },
+          "sampleRate": 29762,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab1.mp3",
+            "codec": "mp3",
+            "sha256": "0518f8dd30327bd7"
+          },
+          "loop": {
+            "start": 11300,
+            "end": 11836
+          }
+        },
+        {
+          "keyRange": {
+            "low": 39,
+            "high": 47
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 80
+          },
+          "sampleRate": 28409,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "c99ba858f336dc73"
+          },
+          "loop": {
+            "start": 10529,
+            "end": 10854
+          }
+        },
+        {
+          "keyRange": {
+            "low": 48,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 40,
+            "fineTuneCents": 80
+          },
+          "sampleRate": 28409,
+          "audio": {
+            "type": "external",
+            "url": "zone_E2.mp3",
+            "codec": "mp3",
+            "sha256": "c99ba858f336dc73"
+          },
+          "loop": {
+            "start": 10529,
+            "end": 10854
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Bass (finger)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:33",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 33,
+    "gmCategory": "bass",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 62,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_D4.raw",
+            "codec": "raw",
+            "sha256": "dbcc1f887735896d"
+          },
+          "loop": {
+            "start": 750,
+            "end": 900
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 110
+          },
+          "pitch": {
+            "rootNote": 88,
+            "fineTuneCents": 75
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E6.raw",
+            "codec": "raw",
+            "sha256": "1e1706adae16e367"
+          },
+          "loop": {
+            "start": 3409,
+            "end": 3473
+          }
+        },
+        {
+          "keyRange": {
+            "low": 111,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          },
+          "loop": {
+            "start": 2963,
+            "end": 5394
+          }
+        }
+      ]
+    }
+  }
+}

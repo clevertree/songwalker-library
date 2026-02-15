@@ -1,0 +1,25 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Square Oscillator",
+  "category": "synth",
+  "tags": ["melodic", "oscillator", "square", "basic", "chiptune"],
+  "maxVoices": 64,
+  "metadata": {
+    "description": "A square wave oscillator with a snappy envelope, great for chiptune sounds",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "oscillator",
+    "config": {
+      "waveform": "square",
+      "envelope": {
+        "attack": 0.01,
+        "decay": 0.05,
+        "sustain": 0.9,
+        "release": 0.2
+      }
+    }
+  }
+}

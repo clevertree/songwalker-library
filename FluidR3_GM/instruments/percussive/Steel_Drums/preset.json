@@ -1,0 +1,95 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Steel Drums",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:114",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 114,
+    "gmCategory": "percussive",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 24000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "2481009dfa47eed4"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 72
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 34000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "248d77e281aced66"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 73,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 78,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb5.mp3",
+            "codec": "mp3",
+            "sha256": "8aa5fc329b422599"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 34000,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "e7a19d5e801be8d4"
+          }
+        }
+      ]
+    }
+  }
+}

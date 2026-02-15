@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Timpani",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "strings",
+    "gm:47",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 47,
+    "gmCategory": "strings",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 81
+          },
+          "pitch": {
+            "rootNote": 57,
+            "fineTuneCents": 53
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A3.mp3",
+            "codec": "mp3",
+            "sha256": "29043eb9b95ebb5e"
+          }
+        }
+      ]
+    }
+  }
+}

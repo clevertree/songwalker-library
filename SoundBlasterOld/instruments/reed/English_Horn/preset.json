@@ -1,0 +1,66 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "English Horn",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "reed",
+    "gm:69",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 69,
+    "gmCategory": "reed",
+    "source": "SoundBlasterOld",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 101
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "45e3da4169aa32cd"
+          },
+          "loop": {
+            "start": 1479,
+            "end": 1534
+          }
+        },
+        {
+          "keyRange": {
+            "low": 102,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 111,
+            "fineTuneCents": 48
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb8.raw",
+            "codec": "raw",
+            "sha256": "4d1627b88d666760"
+          }
+        }
+      ]
+    }
+  }
+}

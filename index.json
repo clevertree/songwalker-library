@@ -1,0 +1,120 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "SongWalker Library",
+  "description": "Root index — select a source library to browse its presets",
+  "entries": [
+    {
+      "type": "index",
+      "name": "Acoustic Guitar",
+      "path": "Acoustic_Guitar/index.json",
+      "description": "Acoustic Guitar soundfont",
+      "presetCount": 1
+    },
+    {
+      "type": "index",
+      "name": "Aspirin",
+      "path": "Aspirin/index.json",
+      "description": "Aspirin soundfont",
+      "presetCount": 128
+    },
+    {
+      "type": "index",
+      "name": "Chaos",
+      "path": "Chaos/index.json",
+      "description": "Chaos soundfont",
+      "presetCount": 175
+    },
+    {
+      "type": "index",
+      "name": "FluidR3 GM",
+      "path": "FluidR3_GM/index.json",
+      "description": "FluidR3 GM soundfont",
+      "presetCount": 175
+    },
+    {
+      "type": "index",
+      "name": "GeneralUserGS",
+      "path": "GeneralUserGS/index.json",
+      "description": "GeneralUserGS soundfont",
+      "presetCount": 128
+    },
+    {
+      "type": "index",
+      "name": "Gibson Les Paul",
+      "path": "Gibson_Les_Paul/index.json",
+      "description": "Gibson Les Paul soundfont",
+      "presetCount": 1
+    },
+    {
+      "type": "index",
+      "name": "JCLive",
+      "path": "JCLive/index.json",
+      "description": "JCLive soundfont",
+      "presetCount": 175
+    },
+    {
+      "type": "index",
+      "name": "LK AcousticSteel SF2 file",
+      "path": "LK_AcousticSteel_SF2_file/index.json",
+      "description": "LK AcousticSteel SF2 file soundfont",
+      "presetCount": 1
+    },
+    {
+      "type": "index",
+      "name": "LK Godin Nylon SF2 file",
+      "path": "LK_Godin_Nylon_SF2_file/index.json",
+      "description": "LK Godin Nylon SF2 file soundfont",
+      "presetCount": 1
+    },
+    {
+      "type": "index",
+      "name": "LesPaul",
+      "path": "LesPaul/index.json",
+      "description": "LesPaul soundfont",
+      "presetCount": 4
+    },
+    {
+      "type": "index",
+      "name": "SBAWE32",
+      "path": "SBAWE32/index.json",
+      "description": "SBAWE32 soundfont",
+      "presetCount": 5
+    },
+    {
+      "type": "index",
+      "name": "SBLive",
+      "path": "SBLive/index.json",
+      "description": "SBLive soundfont",
+      "presetCount": 175
+    },
+    {
+      "type": "index",
+      "name": "Soul Ahhs",
+      "path": "Soul_Ahhs/index.json",
+      "description": "Soul Ahhs soundfont",
+      "presetCount": 2
+    },
+    {
+      "type": "index",
+      "name": "SoundBlasterOld",
+      "path": "SoundBlasterOld/index.json",
+      "description": "SoundBlasterOld soundfont",
+      "presetCount": 128
+    },
+    {
+      "type": "index",
+      "name": "Stratocaster",
+      "path": "Stratocaster/index.json",
+      "description": "Stratocaster soundfont",
+      "presetCount": 2
+    },
+    {
+      "type": "index",
+      "name": "Built-in",
+      "path": "_shared/index.json",
+      "description": "Built-in oscillator synths and effects (no samples)",
+      "presetCount": 7
+    }
+  ]
+}

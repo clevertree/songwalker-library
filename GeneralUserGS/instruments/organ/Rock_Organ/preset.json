@@ -1,0 +1,129 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Rock Organ",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "organ",
+    "gm:18",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 18,
+    "gmCategory": "organ",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 49
+          },
+          "pitch": {
+            "rootNote": 55,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G3.mp3",
+            "codec": "mp3",
+            "sha256": "107c922f36715175"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 50,
+            "high": 58
+          },
+          "pitch": {
+            "rootNote": 64,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E4.mp3",
+            "codec": "mp3",
+            "sha256": "38dcd793fff4ce1e"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 59,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.mp3",
+            "codec": "mp3",
+            "sha256": "9fa86113fef2274b"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 82,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Bb5.mp3",
+            "codec": "mp3",
+            "sha256": "1a76de5462499d76"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 85
+          },
+          "pitch": {
+            "rootNote": 91,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G6.mp3",
+            "codec": "mp3",
+            "sha256": "8e9904c07e7c14e3"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 86,
+            "high": 124
+          },
+          "pitch": {
+            "rootNote": 99,
+            "fineTuneCents": 90
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb7.mp3",
+            "codec": "mp3",
+            "sha256": "f81ac2565155d65c"
+          }
+        }
+      ]
+    }
+  }
+}

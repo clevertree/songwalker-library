@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Guitar Harmonics",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:31",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 31,
+    "gmCategory": "guitar",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 58
+          },
+          "pitch": {
+            "rootNote": 61,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db4.mp3",
+            "codec": "mp3",
+            "sha256": "5bfceb5895e6874f"
+          },
+          "loop": {
+            "start": 7739,
+            "end": 7927
+          }
+        },
+        {
+          "keyRange": {
+            "low": 59,
+            "high": 62
+          },
+          "pitch": {
+            "rootNote": 59,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B3.mp3",
+            "codec": "mp3",
+            "sha256": "ed3e6ced5a1bfb17"
+          },
+          "loop": {
+            "start": 8648,
+            "end": 9319
+          }
+        },
+        {
+          "keyRange": {
+            "low": 63,
+            "high": 67
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.mp3",
+            "codec": "mp3",
+            "sha256": "0d04abf590ecfb72"
+          },
+          "loop": {
+            "start": 1765,
+            "end": 1942
+          }
+        },
+        {
+          "keyRange": {
+            "low": 68,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 68,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab4.mp3",
+            "codec": "mp3",
+            "sha256": "303bdc4f0ab4da4a"
+          },
+          "loop": {
+            "start": 1085,
+            "end": 1350
+          }
+        }
+      ]
+    }
+  }
+}

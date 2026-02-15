@@ -1,0 +1,163 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Overdriven Guitar",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:29",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 29,
+    "gmCategory": "guitar",
+    "source": "SBAWE32",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 44
+          },
+          "pitch": {
+            "rootNote": 42,
+            "fineTuneCents": 5
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb2.mp3",
+            "codec": "mp3",
+            "sha256": "fcbbc8284471e39c"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 45,
+            "high": 50
+          },
+          "pitch": {
+            "rootNote": 48,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_C3.mp3",
+            "codec": "mp3",
+            "sha256": "50887a5c1e915c57"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 51,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 54,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb3.mp3",
+            "codec": "mp3",
+            "sha256": "3a165661057efb71"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 62
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "187b1274b09e41e9"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 63,
+            "high": 68
+          },
+          "pitch": {
+            "rootNote": 66,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_Gb4.mp3",
+            "codec": "mp3",
+            "sha256": "12f9d3665fa2aeaa"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 69,
+            "high": 74
+          },
+          "pitch": {
+            "rootNote": 72,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_C5.mp3",
+            "codec": "mp3",
+            "sha256": "4101db177ee73a1a"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 75,
+            "high": 80
+          },
+          "pitch": {
+            "rootNote": 73,
+            "fineTuneCents": 7
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db5.mp3",
+            "codec": "mp3",
+            "sha256": "1b4971ac3b539d35"
+          }
+        },
+        {
+          "keyRange": {
+            "low": 81,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 83,
+            "fineTuneCents": 95
+          },
+          "sampleRate": 11025,
+          "audio": {
+            "type": "external",
+            "url": "zone_B5.mp3",
+            "codec": "mp3",
+            "sha256": "36d78a2761a9a647"
+          }
+        }
+      ]
+    }
+  }
+}

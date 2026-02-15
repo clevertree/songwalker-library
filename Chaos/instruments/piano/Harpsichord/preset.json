@@ -1,0 +1,175 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Harpsichord",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "piano",
+    "gm:6",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 6,
+    "gmCategory": "piano",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 47
+          },
+          "pitch": {
+            "rootNote": 52,
+            "fineTuneCents": 46
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E3.mp3",
+            "codec": "mp3",
+            "sha256": "ec0cfc44181d2fc1"
+          },
+          "loop": {
+            "start": 815,
+            "end": 1075
+          }
+        },
+        {
+          "keyRange": {
+            "low": 48,
+            "high": 55
+          },
+          "pitch": {
+            "rootNote": 63,
+            "fineTuneCents": 56
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb4.mp3",
+            "codec": "mp3",
+            "sha256": "9dd44b728cde1ed5"
+          },
+          "loop": {
+            "start": 508,
+            "end": 645
+          }
+        },
+        {
+          "keyRange": {
+            "low": 56,
+            "high": 65
+          },
+          "pitch": {
+            "rootNote": 71,
+            "fineTuneCents": 42
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B4.mp3",
+            "codec": "mp3",
+            "sha256": "a617316f7d95a268"
+          },
+          "loop": {
+            "start": 823,
+            "end": 910
+          }
+        },
+        {
+          "keyRange": {
+            "low": 66,
+            "high": 80
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 32
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.mp3",
+            "codec": "mp3",
+            "sha256": "11844e9373e6fe12"
+          },
+          "loop": {
+            "start": 643,
+            "end": 695
+          }
+        },
+        {
+          "keyRange": {
+            "low": 81,
+            "high": 96
+          },
+          "pitch": {
+            "rootNote": 93,
+            "fineTuneCents": 1
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A6.mp3",
+            "codec": "mp3",
+            "sha256": "64424d0f7c949565"
+          },
+          "loop": {
+            "start": 769,
+            "end": 794
+          }
+        },
+        {
+          "keyRange": {
+            "low": 97,
+            "high": 97
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.mp3",
+            "codec": "mp3",
+            "sha256": "dbda0638ed943d75"
+          },
+          "loop": {
+            "start": 639,
+            "end": 651
+          }
+        },
+        {
+          "keyRange": {
+            "low": 98,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 71
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.mp3",
+            "codec": "mp3",
+            "sha256": "dbda0638ed943d75"
+          },
+          "loop": {
+            "start": 639,
+            "end": 651
+          }
+        }
+      ]
+    }
+  }
+}

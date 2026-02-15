@@ -1,0 +1,49 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Electric Guitar (jazz)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "guitar",
+    "gm:26",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 26,
+    "gmCategory": "guitar",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 109
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 18
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "4902d1d486d0cb9d"
+          },
+          "loop": {
+            "start": 9,
+            "end": 114
+          }
+        }
+      ]
+    }
+  }
+}

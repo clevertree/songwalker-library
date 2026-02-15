@@ -1,0 +1,133 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tubular Bells",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:14",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 14,
+    "gmCategory": "chromatic-percussion",
+    "source": "FluidR3_GM",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "9ef5629e4484316d"
+          },
+          "loop": {
+            "start": 61072,
+            "end": 62484
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 75
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "9ef5629e4484316d"
+          },
+          "loop": {
+            "start": 61072,
+            "end": 62484
+          }
+        },
+        {
+          "keyRange": {
+            "low": 76,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "9ef5629e4484316d"
+          },
+          "loop": {
+            "start": 61072,
+            "end": 62484
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 94
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "9ef5629e4484316d"
+          },
+          "loop": {
+            "start": 61072,
+            "end": 62484
+          }
+        },
+        {
+          "keyRange": {
+            "low": 95,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 84,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C6.mp3",
+            "codec": "mp3",
+            "sha256": "9ef5629e4484316d"
+          },
+          "loop": {
+            "start": 61072,
+            "end": 62484
+          }
+        }
+      ]
+    }
+  }
+}

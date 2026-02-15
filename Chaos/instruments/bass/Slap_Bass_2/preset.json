@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Slap Bass 2",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:37",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 37,
+    "gmCategory": "bass",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 37
+          },
+          "pitch": {
+            "rootNote": 36,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C2.mp3",
+            "codec": "mp3",
+            "sha256": "7a397b4f81679cf1"
+          },
+          "loop": {
+            "start": 19495,
+            "end": 24222
+          }
+        },
+        {
+          "keyRange": {
+            "low": 38,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 43,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G2.mp3",
+            "codec": "mp3",
+            "sha256": "0f75249e7c074292"
+          },
+          "loop": {
+            "start": 15616,
+            "end": 25984
+          }
+        }
+      ]
+    }
+  }
+}

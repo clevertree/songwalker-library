@@ -1,0 +1,154 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Xylophone",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "chromatic-percussion",
+    "gm:13",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 13,
+    "gmCategory": "chromatic-percussion",
+    "source": "SBLive",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 56
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "c6305d344c3d2e73"
+          },
+          "loop": {
+            "start": 4691,
+            "end": 4746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 57,
+            "high": 66
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "c6305d344c3d2e73"
+          },
+          "loop": {
+            "start": 4691,
+            "end": 4746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 67,
+            "high": 78
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "c6305d344c3d2e73"
+          },
+          "loop": {
+            "start": 4691,
+            "end": 4746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 79,
+            "high": 87
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "c6305d344c3d2e73"
+          },
+          "loop": {
+            "start": 4691,
+            "end": 4746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 88,
+            "high": 91
+          },
+          "pitch": {
+            "rootNote": 79,
+            "fineTuneCents": 35
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G5.raw",
+            "codec": "raw",
+            "sha256": "c6305d344c3d2e73"
+          },
+          "loop": {
+            "start": 4691,
+            "end": 4746
+          }
+        },
+        {
+          "keyRange": {
+            "low": 92,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 104,
+            "fineTuneCents": 32
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab7.raw",
+            "codec": "raw",
+            "sha256": "ddb329c0f8a68f97"
+          },
+          "loop": {
+            "start": 1106,
+            "end": 1119
+          }
+        }
+      ]
+    }
+  }
+}

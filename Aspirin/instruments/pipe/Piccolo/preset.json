@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Piccolo",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:72",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 72,
+    "gmCategory": "pipe",
+    "source": "Aspirin",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 105
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "875f5d0e13087d8c"
+          },
+          "loop": {
+            "start": 62151,
+            "end": 89918
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 105
+          },
+          "pitch": {
+            "rootNote": 69,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A4.mp3",
+            "codec": "mp3",
+            "sha256": "b55a1e5f1b34725a"
+          },
+          "loop": {
+            "start": 60449,
+            "end": 88030
+          }
+        }
+      ]
+    }
+  }
+}

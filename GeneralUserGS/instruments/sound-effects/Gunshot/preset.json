@@ -1,0 +1,91 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Gunshot",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "sound-effects",
+    "gm:127",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 127,
+    "gmCategory": "sound-effects",
+    "source": "GeneralUserGS",
+    "variant": 4,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 60
+          },
+          "pitch": {
+            "rootNote": 47,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B2.mp3",
+            "codec": "mp3",
+            "sha256": "d0a72fd5178b694c"
+          },
+          "loop": {
+            "start": 7,
+            "end": 976
+          }
+        },
+        {
+          "keyRange": {
+            "low": 61,
+            "high": 84
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "5e2667309723e516"
+          },
+          "loop": {
+            "start": 9,
+            "end": 783
+          }
+        },
+        {
+          "keyRange": {
+            "low": 85,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 60,
+            "fineTuneCents": 0
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_C4.mp3",
+            "codec": "mp3",
+            "sha256": "5e2667309723e516"
+          },
+          "loop": {
+            "start": 9,
+            "end": 783
+          }
+        }
+      ]
+    }
+  }
+}

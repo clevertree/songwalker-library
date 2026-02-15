@@ -1,0 +1,27 @@
+{
+  "format": "songwalker-index",
+  "version": 1,
+  "name": "Acoustic Guitar",
+  "description": "Acoustic Guitar soundfont — 1 presets",
+  "entries": [
+    {
+      "type": "preset",
+      "name": "Acoustic Guitar (steel)",
+      "path": "instruments/guitar/Acoustic_Guitar_steel/preset.json",
+      "category": "sampler",
+      "tags": [
+        "melodic",
+        "guitar",
+        "gm:25",
+        "sustained",
+        "looped"
+      ],
+      "gmProgram": 25,
+      "zoneCount": 23,
+      "keyRange": {
+        "low": 41,
+        "high": 83
+      }
+    }
+  ]
+}

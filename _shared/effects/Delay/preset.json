@@ -1,0 +1,21 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Delay",
+  "category": "effect",
+  "tags": ["effect", "delay", "echo", "time-based"],
+  "metadata": {
+    "description": "A delay effect for creating echoes and rhythmic repeats",
+    "author": "SongWalker",
+    "license": "MIT"
+  },
+  "node": {
+    "type": "effect",
+    "effectType": "delay",
+    "params": {
+      "time": 0.375,
+      "feedback": 0.4,
+      "wetDry": 0.3
+    }
+  }
+}

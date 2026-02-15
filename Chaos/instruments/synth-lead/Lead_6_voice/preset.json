@@ -1,0 +1,112 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Lead 6 (voice)",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "synth-lead",
+    "gm:85",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 85,
+    "gmCategory": "synth-lead",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 97,
+            "fineTuneCents": 65
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db7.mp3",
+            "codec": "mp3",
+            "sha256": "d4bdaa1a64226f95"
+          },
+          "loop": {
+            "start": 129,
+            "end": 5427
+          }
+        },
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 76
+          },
+          "pitch": {
+            "rootNote": 76,
+            "fineTuneCents": 79
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_E5.mp3",
+            "codec": "mp3",
+            "sha256": "1ac92b4906bcd535"
+          },
+          "loop": {
+            "start": 1570,
+            "end": 8382
+          }
+        },
+        {
+          "keyRange": {
+            "low": 77,
+            "high": 101
+          },
+          "pitch": {
+            "rootNote": 87,
+            "fineTuneCents": 50
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Eb6.mp3",
+            "codec": "mp3",
+            "sha256": "f169f2656bd77b5b"
+          },
+          "loop": {
+            "start": 1020,
+            "end": 5487
+          }
+        },
+        {
+          "keyRange": {
+            "low": 102,
+            "high": 108
+          },
+          "pitch": {
+            "rootNote": 107,
+            "fineTuneCents": 21
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_B7.mp3",
+            "codec": "mp3",
+            "sha256": "05f6200549ff18a3"
+          },
+          "loop": {
+            "start": 430,
+            "end": 441
+          }
+        }
+      ]
+    }
+  }
+}

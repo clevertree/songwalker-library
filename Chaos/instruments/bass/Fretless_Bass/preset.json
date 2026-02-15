@@ -1,0 +1,70 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Fretless Bass",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "bass",
+    "gm:35",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 35,
+    "gmCategory": "bass",
+    "source": "Chaos",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 49
+          },
+          "pitch": {
+            "rootNote": 37,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_Db2.mp3",
+            "codec": "mp3",
+            "sha256": "f29950a98a6159f2"
+          },
+          "loop": {
+            "start": 18732,
+            "end": 19937
+          }
+        },
+        {
+          "keyRange": {
+            "low": 50,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 55,
+            "fineTuneCents": 96
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_G3.mp3",
+            "codec": "mp3",
+            "sha256": "2d939a9cd4d5bfb1"
+          },
+          "loop": {
+            "start": 17100,
+            "end": 17523
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Tinkle Bell",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "percussive",
+    "gm:112",
+    "sustained",
+    "looped"
+  ],
+  "metadata": {
+    "gmProgram": 112,
+    "gmCategory": "percussive",
+    "source": "GeneralUserGS",
+    "variant": 0,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 49
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 50,
+            "high": 61
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 62,
+            "high": 73
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 74,
+            "high": 85
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 86,
+            "high": 97
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 98,
+            "high": 102
+          },
+          "pitch": {
+            "rootNote": 101,
+            "fineTuneCents": 94
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_F7.mp3",
+            "codec": "mp3",
+            "sha256": "7007685a884132be"
+          },
+          "loop": {
+            "start": 8864,
+            "end": 10055
+          }
+        },
+        {
+          "keyRange": {
+            "low": 103,
+            "high": 127
+          },
+          "pitch": {
+            "rootNote": 105,
+            "fineTuneCents": 80
+          },
+          "sampleRate": 44100,
+          "audio": {
+            "type": "external",
+            "url": "zone_A7.mp3",
+            "codec": "mp3",
+            "sha256": "161adc18b16b07e7"
+          },
+          "loop": {
+            "start": 1543,
+            "end": 1638
+          }
+        }
+      ]
+    }
+  }
+}

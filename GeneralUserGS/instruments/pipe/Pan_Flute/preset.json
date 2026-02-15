@@ -1,0 +1,44 @@
+{
+  "format": "songwalker-preset",
+  "version": 1,
+  "name": "Pan Flute",
+  "category": "sampler",
+  "tags": [
+    "melodic",
+    "pipe",
+    "gm:75",
+    "one-shot"
+  ],
+  "metadata": {
+    "gmProgram": 75,
+    "gmCategory": "pipe",
+    "source": "GeneralUserGS",
+    "variant": 1,
+    "license": "See original SF2 license"
+  },
+  "node": {
+    "type": "sampler",
+    "config": {
+      "oneShot": false,
+      "zones": [
+        {
+          "keyRange": {
+            "low": 0,
+            "high": 111
+          },
+          "pitch": {
+            "rootNote": 80,
+            "fineTuneCents": 90
+          },
+          "sampleRate": 30000,
+          "audio": {
+            "type": "external",
+            "url": "zone_Ab5.mp3",
+            "codec": "mp3",
+            "sha256": "00773d863e7c9c63"
+          }
+        }
+      ]
+    }
+  }
+}
